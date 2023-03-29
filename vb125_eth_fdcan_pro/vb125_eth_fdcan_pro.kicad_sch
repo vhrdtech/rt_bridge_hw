@@ -1,5 +1,139 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b473bccb-f14c-41d5-b473-137d3ef8ae1e)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (rev "A")
+    (company "vhrd.tech")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text_box "TODO:\n--\nabc\n"
+    (at 16.51 88.9 0) (size 25.4 15.24)
+    (stroke (width 0.1524) (type dash) (color 0 194 194 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 1749b0b1-2a11-49c7-8c59-7cddaa2a8715)
+  )
+  (text_box "Information:\n--\nabc\n"
+    (at 16.51 106.68 0) (size 25.4 15.24)
+    (stroke (width 0.1524) (type dash) (color 72 72 72 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 35c43883-b053-4567-980c-d6be3e74f12b)
+  )
+  (text_box "Critical:\n--\nabc\n"
+    (at 16.51 160.02 0) (size 25.4 15.24)
+    (stroke (width 0.254) (type dash) (color 194 0 0 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid a2afbf7f-7d67-435d-b06d-a7d68165bac5)
+  )
+  (text_box "Debug:\n--\nabc\n"
+    (at 16.51 142.24 0) (size 25.4 15.24)
+    (stroke (width 0.1524) (type dash) (color 221 133 0 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid ba806860-2095-4eea-a2cf-83d136a5a201)
+  )
+  (text_box "Caution:\n--\nabc\n"
+    (at 16.51 124.46 0) (size 25.4 15.24)
+    (stroke (width 0.1524) (type dash) (color 194 194 0 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid d49892a8-db51-4aa9-a52c-e445bfec3ccb)
+  )
+  (text_box "Layout:\n--\nabc\n"
+    (at 16.51 178.435 0) (size 25.4 15.24)
+    (stroke (width 0.254) (type dash) (color 0 0 194 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid f7b9281a-6f05-465b-9af3-ae92b5a1946f)
+  )
+
+  (text "eth_fdcan_pro" (at 27.94 46.99 0)
+    (effects (font (face "Orbitron") (size 7.62 7.62) (thickness 1.524) bold (color 0 0 0 1)) (justify left bottom))
+    (uuid 261790bf-31ba-4d95-8b0d-4ef45a3d5a15)
+  )
+  (text "vhrd.tech" (at 27.94 34.29 0)
+    (effects (font (face "Orbitron") (size 5.08 5.08) (color 0 0 0 1)) (justify left bottom))
+    (uuid 287a718d-6e93-431f-982b-1cd5ae3cb0c6)
+  )
+
+  (sheet (at 69.85 119.38) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13d04be1-6d05-4847-9c03-a8fbeeb3fd19)
+    (property "Sheetname" "USB" (at 69.85 118.6684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p4_usb.kicad_sch" (at 69.85 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 134.62) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc)
+    (property "Sheetname" "Power" (at 69.85 133.9084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p5_power.kicad_sch" (at 69.85 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 104.14) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6eaf8f36-f4c1-413f-846c-b502b7be2b8c)
+    (property "Sheetname" "Eth" (at 69.85 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p3_eth.kicad_sch" (at 69.85 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 90.17) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c16e79c7-955f-4686-8fe9-acff02e57751)
+    (property "Sheetname" "MCU_H7" (at 69.85 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p2_mcu_h7.kicad_sch" (at 69.85 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
