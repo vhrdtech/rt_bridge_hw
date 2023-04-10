@@ -342,6 +342,18 @@
     [
       "4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc",
       "Power"
+    ],
+    [
+      "96773d61-2940-42cb-9a0c-01cb58b4a4b5",
+      "CAN"
+    ],
+    [
+      "5caca214-bd98-4d53-9e0b-a904082b09c6",
+      "PoE"
+    ],
+    [
+      "2334f909-fe66-4647-954f-aa86c22b7af3",
+      "Bus Power"
     ]
   ],
   "text_variables": {}

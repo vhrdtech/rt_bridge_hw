@@ -82,6 +82,23 @@
     )
   )
 
+  (sheet (at 69.85 180.34) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2334f909-fe66-4647-954f-aa86c22b7af3)
+    (property "Sheetname" "Bus Power" (at 69.85 179.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p8_bus_power.kicad_sch" (at 69.85 188.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 69.85 134.62) (size 31.75 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -99,6 +116,23 @@
     )
   )
 
+  (sheet (at 69.85 165.1) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5caca214-bd98-4d53-9e0b-a904082b09c6)
+    (property "Sheetname" "PoE" (at 69.85 164.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p7_poe.kicad_sch" (at 69.85 173.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "7"))
+      )
+    )
+  )
+
   (sheet (at 69.85 104.14) (size 31.75 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -112,6 +146,23 @@
     (instances
       (project "vb125_eth_fdcan_pro"
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 149.86) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 96773d61-2940-42cb-9a0c-01cb58b4a4b5)
+    (property "Sheetname" "CAN" (at 69.85 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p6_can.kicad_sch" (at 69.85 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "6"))
       )
     )
   )
