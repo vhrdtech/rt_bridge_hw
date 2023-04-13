@@ -1,4 +1,4 @@
-21591237798850157
+21596281528970312
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90097,6 +90097,20 @@ vhrd_connector_harting
 11
 11
 vhrd_connectors_molex
+5047540700
+
+
+0
+9
+9
+vhrd_connectors_molex
+5047541100
+
+
+0
+13
+13
+vhrd_connectors_molex
 Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal
 Molex Pico-Lock series connector, 504050-0491 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator
 connector Molex Pico-Lock horizontal
@@ -90110,6 +90124,13 @@ ECX-.327-CDX-1293
 0
 2
 2
+vhrd_generic
+SOIC-8-ANALOG
+
+SOIC SO
+0
+20
+9
 vhrd_interface_ethernet
 QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias
 QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002164B.pdf#page=68), generated with kicad-footprint-generator ipc_noLead_generator.py

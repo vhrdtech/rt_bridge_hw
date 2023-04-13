@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 2bd9f0b1-f492-4464-91f5-b847ef141153)
+  (uuid fcf993de-0bce-4dc6-8e7f-2bda5dafe30b)
 
   (paper "A4")
 
@@ -222,46 +222,6 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "vhrd_pmic_regulator:LT8304" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 1.27 0)
         (effects (font (size 1.27 1.27)))
@@ -320,6 +280,43 @@
         (pin power_in line (at -2.54 -17.78 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "vhrd_power:ISO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "ISO" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ISO_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "ISO_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "ISO" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -500,24 +497,32 @@
     (uuid fb225e24-2a28-4a37-86b1-ef8eddc7b5d9)
   )
 
-  (label "BP_RREF" (at 163.83 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (text_box "Critical:\n--\nLoad must be present (R or Zener), otherwise voltage will skyrocket."
+    (at 135.89 121.92 0) (size 25.4 15.24)
+    (stroke (width 0.254) (type dash) (color 194 0 0 1))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 4b7057aa-b6a6-4855-972b-5d4174b05620)
+  )
+
+  (label "BP_RREF" (at 149.86 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 35539121-2702-4dcb-a417-df2ef118b500)
   )
   (label "BP_TC" (at 163.83 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6126e81b-2a54-4c8e-9a3a-ecf818a15d04)
   )
-  (label "BP_RFB" (at 163.83 93.98 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BP_RFB" (at 149.86 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63944392-37a9-4088-bc0d-9ed60e34c73f)
   )
-  (label "BP_INT_VCC" (at 199.39 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BP_INT_VCC" (at 187.96 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e3c662e-bea2-4820-8f6d-a7cd893c898a)
   )
-  (label "BP_EN_UVLO" (at 199.39 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BP_EN_UVLO" (at 187.96 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d63fa681-25d4-4c4e-b33b-96f4d5f33041)
   )
 
@@ -547,40 +552,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 199.39 115.57 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0770daa6-c45c-4e11-91fc-6b46937f3ea3)
-    (property "Reference" "#PWR020" (at 199.39 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 199.39 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 199.39 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 199.39 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2b303814-fe45-4b1d-95d6-b51dbc5e152d))
-    (instances
-      (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/13d04be1-6d05-4847-9c03-a8fbeeb3fd19"
-          (reference "#PWR069") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc"
-          (reference "#PWR080") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
-          (reference "#PWR093") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 137.16 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f86368c-c3e8-4f23-b16c-ebaeb2f7b087)
@@ -596,7 +567,7 @@
     (property "Datasheet" "~" (at 137.16 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage" "250V?" (at 133.985 59.69 0)
+    (property "Voltage" "250V" (at 133.985 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Dielectric" "C0G" (at 133.985 63.5 0)
@@ -629,6 +600,72 @@
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
           (reference "C50") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "vhrd_power:ISO") (at 189.23 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 29bfa748-5f28-43f2-834e-9cb93d03d2e5)
+    (property "Reference" "#PWR0115" (at 189.23 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "ISO" (at 189.23 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 189.23 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 189.23 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd6a30fd-0414-4748-a79f-ebcc9f35e65a))
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/96773d61-2940-42cb-9a0c-01cb58b4a4b5"
+          (reference "#PWR0115") (unit 1)
+        )
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
+          (reference "#PWR093") (unit 1)
+        )
+      )
+      (project "vb124_iob_isofd_db9"
+        (path "/c2faa2d6-f016-4ced-a037-b6f98c12e5ce"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "vhrd_power:ISO") (at 199.39 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4acbb587-fa1c-4505-a078-1f543854fd5b)
+    (property "Reference" "#PWR0115" (at 199.39 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "ISO" (at 199.39 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 199.39 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 199.39 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15ccd1ff-d325-4966-9ba2-13c7cad33b78))
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/96773d61-2940-42cb-9a0c-01cb58b4a4b5"
+          (reference "#PWR0115") (unit 1)
+        )
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
+          (reference "#PWR094") (unit 1)
+        )
+      )
+      (project "vb124_iob_isofd_db9"
+        (path "/c2faa2d6-f016-4ced-a037-b6f98c12e5ce"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -725,40 +762,6 @@
       (project "vb125_eth_fdcan_pro"
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
           (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 208.28 115.57 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7b07f4af-0d5a-4d20-a35f-dbd9712b093f)
-    (property "Reference" "#PWR020" (at 208.28 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 208.28 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 208.28 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 208.28 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 376535b4-042e-435f-a787-5751815327d7))
-    (instances
-      (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/13d04be1-6d05-4847-9c03-a8fbeeb3fd19"
-          (reference "#PWR069") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc"
-          (reference "#PWR080") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
-          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -888,6 +891,39 @@
     )
   )
 
+  (symbol (lib_id "vhrd_power:ISO") (at 208.28 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b1465172-28aa-4d3b-b637-6231602ffb4e)
+    (property "Reference" "#PWR0115" (at 208.28 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "ISO" (at 208.28 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 208.28 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1746c3f7-c5d4-4f03-b588-d90914aebb78))
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/96773d61-2940-42cb-9a0c-01cb58b4a4b5"
+          (reference "#PWR0115") (unit 1)
+        )
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
+          (reference "#PWR095") (unit 1)
+        )
+      )
+      (project "vb124_iob_isofd_db9"
+        (path "/c2faa2d6-f016-4ced-a037-b6f98c12e5ce"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 148.59 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9ed4ae0-805b-4f4a-afbf-7e15b01d9a5f)
@@ -918,40 +954,6 @@
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
           (reference "R47") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 148.59 115.57 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bcb31ad2-c393-4c21-9f32-9402cadd5eb0)
-    (property "Reference" "#PWR020" (at 148.59 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 148.59 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 148.59 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 148.59 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a2289888-a163-42f5-ae2f-73575e0326c8))
-    (instances
-      (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/13d04be1-6d05-4847-9c03-a8fbeeb3fd19"
-          (reference "#PWR069") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc"
-          (reference "#PWR080") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
-          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1018,40 +1020,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 189.23 115.57 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e13597e4-6a22-45e2-b6f2-ddc30a239b23)
-    (property "Reference" "#PWR020" (at 189.23 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 189.23 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 189.23 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 189.23 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 171f8e83-0cee-49a9-994a-fdcb837395ee))
-    (instances
-      (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/13d04be1-6d05-4847-9c03-a8fbeeb3fd19"
-          (reference "#PWR069") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc"
-          (reference "#PWR080") (unit 1)
-        )
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 157.48 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9160c83-e994-4871-9aa5-c323e51a9c90)
@@ -1082,6 +1050,39 @@
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
           (reference "R48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "vhrd_power:ISO") (at 148.59 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e94a045c-28e5-4690-b87c-8d5ee0e52dea)
+    (property "Reference" "#PWR0115" (at 148.59 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "ISO" (at 148.59 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 148.59 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 148.59 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15bba546-69b8-445f-afe9-64e6f729110d))
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/96773d61-2940-42cb-9a0c-01cb58b4a4b5"
+          (reference "#PWR0115") (unit 1)
+        )
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/2334f909-fe66-4647-954f-aa86c22b7af3"
+          (reference "#PWR078") (unit 1)
+        )
+      )
+      (project "vb124_iob_isofd_db9"
+        (path "/c2faa2d6-f016-4ced-a037-b6f98c12e5ce"
+          (reference "#PWR013") (unit 1)
         )
       )
     )

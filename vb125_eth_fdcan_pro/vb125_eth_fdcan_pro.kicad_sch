@@ -89,12 +89,12 @@
     (property "Sheetname" "Bus Power" (at 69.85 179.6284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "p8_bus_power.kicad_sch" (at 69.85 188.5446 0)
+    (property "Sheetfile" "p9_bus_power.kicad_sch" (at 69.85 188.5446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "8"))
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "9"))
       )
     )
   )
@@ -123,12 +123,12 @@
     (property "Sheetname" "PoE" (at 69.85 164.3884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "p7_poe.kicad_sch" (at 69.85 173.3046 0)
+    (property "Sheetfile" "p8_poe.kicad_sch" (at 69.85 173.3046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "vb125_eth_fdcan_pro"
-        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "7"))
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "8"))
       )
     )
   )
@@ -154,10 +154,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 96773d61-2940-42cb-9a0c-01cb58b4a4b5)
-    (property "Sheetname" "CAN" (at 69.85 149.1484 0)
+    (property "Sheetname" "CAN Ch1" (at 69.85 149.1484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "p6_can.kicad_sch" (at 69.85 158.0646 0)
+    (property "Sheetfile" "p6_can_ch1.kicad_sch" (at 69.85 158.0646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -180,6 +180,23 @@
     (instances
       (project "vb125_eth_fdcan_pro"
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 106.68 149.86) (size 31.75 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d3b069ca-cffb-4063-97b4-a13cd5254404)
+    (property "Sheetname" "CAN Ch2" (at 106.68 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "p7_can_ch2.kicad_sch" (at 106.68 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e" (page "7"))
       )
     )
   )
