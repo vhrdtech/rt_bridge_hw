@@ -747,7 +747,7 @@
     (property "Reference" "D6" (at 110.1725 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PDS835L-13" (at 110.1725 49.53 0)
+    (property "Value" "PDS360-13" (at 110.1725 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Diode_SMD:D_PowerDI-5" (at 110.49 52.07 0)
