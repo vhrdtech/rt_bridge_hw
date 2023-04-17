@@ -1669,6 +1669,60 @@
         )
       )
     )
+    (symbol "vhrd_power:CHASSIS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "CHASSIS" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CHASSIS_0_1"
+        (polyline
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CHASSIS_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "CHASSIS" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 34.29 153.67) (diameter 0) (color 0 0 0 0)
@@ -2519,6 +2573,10 @@
     (stroke (width 0) (type default))
     (uuid fc9e5a75-47e3-45af-83ee-1f744f15cc49)
   )
+  (wire (pts (xy 240.03 68.58) (xy 250.19 68.58))
+    (stroke (width 0) (type default))
+    (uuid fda3717a-f063-43da-9b15-3f45c1f6792e)
+  )
   (wire (pts (xy 62.23 181.61) (xy 62.23 184.15))
     (stroke (width 0) (type default))
     (uuid fea004e1-be9a-40c3-8f80-f1349d8657a3)
@@ -3356,6 +3414,34 @@
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
           (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "vhrd_power:CHASSIS") (at 240.03 68.58 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5287d82f-d8ff-435f-aaf2-781da9a436fc)
+    (property "Reference" "#PWR0153" (at 233.68 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "CHASSIS" (at 232.41 69.215 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 240.03 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 240.03 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a730b0d5-e1ab-4b51-ab24-63b3577038b6))
+    (instances
+      (project "vb125_eth_fdcan_pro"
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/13d04be1-6d05-4847-9c03-a8fbeeb3fd19"
+          (reference "#PWR0153") (unit 1)
+        )
+        (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/6eaf8f36-f4c1-413f-846c-b502b7be2b8c"
+          (reference "#PWR0154") (unit 1)
         )
       )
     )

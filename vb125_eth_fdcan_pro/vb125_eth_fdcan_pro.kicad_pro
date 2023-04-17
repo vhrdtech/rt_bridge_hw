@@ -516,6 +516,18 @@
     [
       "2334f909-fe66-4647-954f-aa86c22b7af3",
       "Bus Power"
+    ],
+    [
+      "3d0fad2b-e60d-410d-a8dc-441b7875f5cb",
+      "Block diagram"
+    ],
+    [
+      "26a60099-c518-4417-8985-d5c8399fcac3",
+      "Mechanical"
+    ],
+    [
+      "a7a0896a-e2a7-4cab-8258-9c1776a56d94",
+      "Changelog"
     ]
   ],
   "text_variables": {}
