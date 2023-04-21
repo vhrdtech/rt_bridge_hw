@@ -2,7 +2,16 @@
 
   (uuid 97230a43-4f20-44a8-aa69-eefd2e71ea57)
 
-  (paper "A4")
+  (paper "A3")
+
+  (title_block
+    (title "rt_bridge_pro")
+    (date "2023-04-21")
+    (rev "A")
+    (company "vhrd.tech AS")
+    (comment 1 "Isaikin R.E.")
+    (comment 4 "Draft")
+  )
 
   (lib_symbols
   )

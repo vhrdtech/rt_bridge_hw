@@ -2,7 +2,16 @@
 
   (uuid ca240bdd-aff1-4aa7-b396-d0ee9237ba10)
 
-  (paper "A4")
+  (paper "A3")
+
+  (title_block
+    (title "rt_bridge_pro")
+    (date "2023-04-21")
+    (rev "A")
+    (company "vhrd.tech AS")
+    (comment 1 "Isaikin R.E.")
+    (comment 4 "Draft")
+  )
 
   (lib_symbols
     (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
@@ -236,7 +245,7 @@
           (reference "#PWR0153") (unit 1)
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/26a60099-c518-4417-8985-d5c8399fcac3"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -264,7 +273,7 @@
           (reference "#PWR0153") (unit 1)
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/26a60099-c518-4417-8985-d5c8399fcac3"
-          (reference "#PWR0172") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -292,7 +301,7 @@
           (reference "#PWR0153") (unit 1)
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/26a60099-c518-4417-8985-d5c8399fcac3"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -320,7 +329,7 @@
           (reference "#PWR0153") (unit 1)
         )
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/26a60099-c518-4417-8985-d5c8399fcac3"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
