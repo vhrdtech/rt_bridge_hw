@@ -7,4 +7,13 @@
   (lib_symbols
   )
 
+
+  (text "* Initial revision based on vg095 design" (at 17.78 25.4 0)
+    (effects (font (size 1.905 1.905)) (justify left bottom))
+    (uuid 359975ef-fa6e-4c88-b162-ed241f475b85)
+  )
+  (text "Rev.A / 21Apr2023" (at 17.78 20.32 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 9bea57ff-bffd-4bcd-bbe2-dd43b2e324ad)
+  )
 )
