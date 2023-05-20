@@ -411,6 +411,20 @@
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
+      (symbol "AOZ1376DI_1_1"
+        (pin passive line (at -13.97 -13.97 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -13.97 -8.89 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -13.97 -11.43 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
     )
     (symbol "vhrd_power:+3V3_DCDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 3.81 -1.27 0)
@@ -2015,7 +2029,7 @@
     (property "Value" "NetTie_2" (at 147.32 184.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 185.42 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm" (at 147.32 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 185.42 0)
@@ -2041,7 +2055,7 @@
     (property "Value" "AOZ1376DI-02" (at 149.86 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 142.24 109.22 0)
+    (property "Footprint" "vhrd_generic:DFN-12-AOZ" (at 142.24 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://aosmd.com/sites/default/files/res/data_sheets/AOZ1376DI-01.pdf" (at 165.1 134.62 0)
@@ -2057,6 +2071,9 @@
     (pin "5" (uuid d430956a-46a3-42b4-aebb-f289c5f86e3f))
     (pin "6" (uuid e02adb3d-548a-4c21-80b6-2e448a5f881c))
     (pin "7" (uuid ba4e6d84-9519-4951-87c1-06631aaacbe5))
+    (pin "10" (uuid 23b40656-defc-4951-a3e1-b16d475d168f))
+    (pin "8" (uuid 497e567a-b50d-4ba3-83d7-30601d944fb9))
+    (pin "9" (uuid cbf39540-feaf-4571-9104-e0e3fe68aa64))
     (instances
       (project "vb125_eth_fdcan_pro"
         (path "/b473bccb-f14c-41d5-b473-137d3ef8ae1e/4f0cf0c4-cd11-4c65-acf1-d3e73e65f9fc"

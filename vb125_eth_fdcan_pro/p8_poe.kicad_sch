@@ -5509,7 +5509,7 @@
     (property "Value" "Heatsink_Pad" (at 227.33 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 227.0252 171.45 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm" (at 227.0252 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.0252 171.45 0)
