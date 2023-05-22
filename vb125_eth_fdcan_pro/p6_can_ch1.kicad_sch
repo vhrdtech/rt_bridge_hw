@@ -3752,7 +3752,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 189.23 220.98 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 61aeb3f6-ac24-4643-80ef-b11f90c24531)
     (property "Reference" "C65" (at 183.2621 214.63 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4243,7 +4243,7 @@
     (property "Value" "EE2-4.5TNUH" (at 219.71 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH_DoubleCoil" (at 251.46 157.48 0)
+    (property "Footprint" "vhrd_relay:Relay_DPDT_Kemet_EE2_NUH_DoubleCoil" (at 251.46 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" (at 251.46 157.48 0)

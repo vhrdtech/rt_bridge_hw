@@ -426,14 +426,84 @@
         "via_diameter": 0.5,
         "via_drill": 0.25,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HighishSpeed",
+        "pcb_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.01,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3_DCDC": "rgb(255, 153, 0)",
+      "+5V0_SYS": "rgb(255, 135, 158)",
+      "+VIN_USB": "rgb(255, 255, 0)",
+      "/Bus Power/+VIN_DB9": "rgb(255, 255, 0)",
+      "/Bus Power/+VIN_DB9_PR": "rgb(255, 255, 0)",
+      "/CAN Ch2/ISO": "rgb(0, 132, 0)",
+      "CHASSIS": "rgb(132, 132, 0)",
+      "GND": "rgb(0, 194, 0)",
+      "ISO_1": "rgb(0, 132, 0)",
+      "ISO_POE": "rgb(0, 132, 0)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "ULPI*"
+      },
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "ETH_TXD*"
+      },
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "ETH_RXD*"
+      },
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "ETH_REFCLK"
+      },
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "*SDMMC_C*"
+      },
+      {
+        "netclass": "HighishSpeed",
+        "pattern": "*SDMMC_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -441,10 +511,10 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "vb125_eth_fdcan_pro.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${VHRD_TEMPLATE_DIR}/vhrd_a4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
