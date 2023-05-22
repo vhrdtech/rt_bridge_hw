@@ -454,7 +454,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 153, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.5,
@@ -502,6 +502,18 @@
       {
         "netclass": "HighishSpeed",
         "pattern": "*SDMMC_D*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VDD*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*+*V*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*REGOUT*"
       }
     ]
   },
