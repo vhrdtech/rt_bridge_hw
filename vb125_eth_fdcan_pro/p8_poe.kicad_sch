@@ -5460,7 +5460,7 @@
     (property "Footprint" "Package_DFN_QFN:DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm" (at 209.55 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 199.39 107.95 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4267fc.pdf" (at 199.39 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator" (at 199.39 107.95 0)
