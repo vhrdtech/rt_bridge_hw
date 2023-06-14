@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Evgeniy\Documents\GitHub\rt_bridge_hw\vb125_eth_fdcan_pro\vb125_eth_fdcan_pro.kicad_sch</source>
-    <date>5/3/2023 7:32:42 PM</date>
-    <tool>Eeschema (7.0.0)</tool>
+    <source>C:\Users\Roman\Documents\GitHub\rt_bridge_hw\vb125_eth_fdcan_pro\vb125_eth_fdcan_pro.kicad_sch</source>
+    <date>5/7/2023 11:16:52 AM</date>
+    <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>rt_bridge_pro</title>
@@ -950,7 +950,13 @@
     <comp ref="R1">
       <value>3K3</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT3K30</field>
+        <field name="Mpn2">RC0402FR-073K3L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT3K30"/>
+      <property name="Mpn2" value="RC0402FR-073K3L"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -961,7 +967,13 @@
     <comp ref="R2">
       <value>3K3</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT3K30</field>
+        <field name="Mpn2">RC0402FR-073K3L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT3K30"/>
+      <property name="Mpn2" value="RC0402FR-073K3L"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -972,7 +984,13 @@
     <comp ref="R3">
       <value>3K3</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT3K30</field>
+        <field name="Mpn2">RC0402FR-073K3L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT3K30"/>
+      <property name="Mpn2" value="RC0402FR-073K3L"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -983,7 +1001,13 @@
     <comp ref="R4">
       <value>3K3</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT3K30</field>
+        <field name="Mpn2">RC0402FR-073K3L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT3K30"/>
+      <property name="Mpn2" value="RC0402FR-073K3L"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -992,9 +1016,11 @@
       <tstamps>64e3691b-ae6a-4d88-9ed8-561e72bab07e</tstamps>
     </comp>
     <comp ref="R5">
-      <value>3K3</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1003,9 +1029,11 @@
       <tstamps>5826a95a-fb68-49ba-9b07-52130f0cfc24</tstamps>
     </comp>
     <comp ref="R6">
-      <value>3K3</value>
+      <value>RID_PRODUCT</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1016,7 +1044,15 @@
     <comp ref="R7">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1025,9 +1061,11 @@
       <tstamps>e802a98f-9780-4705-bcd4-5fa720f060e4</tstamps>
     </comp>
     <comp ref="R8">
-      <value>3K3</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1036,9 +1074,11 @@
       <tstamps>c07c349a-1ebd-4356-a2fc-4ac01cda1a31</tstamps>
     </comp>
     <comp ref="R9">
-      <value>3K3</value>
+      <value>RID_REV</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1047,9 +1087,11 @@
       <tstamps>08c88a16-e4db-40c4-9bc4-83d8348c3e59</tstamps>
     </comp>
     <comp ref="R10">
-      <value>3K3</value>
+      <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1058,9 +1100,11 @@
       <tstamps>782ecfc5-390c-4b47-b15c-8c6e69d0f0d9</tstamps>
     </comp>
     <comp ref="R11">
-      <value>3K3</value>
+      <value>RID_BOM</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value=""/>
+      <property name="Mpn2" value=""/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1071,7 +1115,15 @@
     <comp ref="R12">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1082,7 +1134,15 @@
     <comp ref="R13">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1093,7 +1153,13 @@
     <comp ref="R14">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-33R0GLF</field>
+        <field name="Mpn2">RMCF0402FT33R0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-33R0GLF"/>
+      <property name="Mpn2" value="RMCF0402FT33R0"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1104,7 +1170,13 @@
     <comp ref="R15">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-49R9GLF</field>
+        <field name="Mpn2">RMCF0402FT49R9</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-49R9GLF"/>
+      <property name="Mpn2" value="RMCF0402FT49R9"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1126,7 +1198,15 @@
     <comp ref="R17">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1137,7 +1217,15 @@
     <comp ref="R18">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="MCU_H7"/>
       <property name="Sheetfile" value="p2_mcu_h7.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1444,7 +1532,13 @@
     <comp ref="R19">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1455,7 +1549,13 @@
     <comp ref="R20">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1466,7 +1566,13 @@
     <comp ref="R21">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-33R0GLF</field>
+        <field name="Mpn2">RMCF0402FT33R0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-33R0GLF"/>
+      <property name="Mpn2" value="RMCF0402FT33R0"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1477,7 +1583,13 @@
     <comp ref="R22">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-33R0GLF</field>
+        <field name="Mpn2">RMCF0402FT33R0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-33R0GLF"/>
+      <property name="Mpn2" value="RMCF0402FT33R0"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1488,7 +1600,13 @@
     <comp ref="R23">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-33R0GLF</field>
+        <field name="Mpn2">RMCF0402FT33R0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-33R0GLF"/>
+      <property name="Mpn2" value="RMCF0402FT33R0"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1499,7 +1617,13 @@
     <comp ref="R24">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1510,7 +1634,13 @@
     <comp ref="R25">
       <value>1k5</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-1501GLF</field>
+        <field name="Mpn2">RMCF0402FT1K50</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-1501GLF"/>
+      <property name="Mpn2" value="RMCF0402FT1K50"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1521,7 +1651,13 @@
     <comp ref="R26">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1532,7 +1668,13 @@
     <comp ref="R27">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1543,7 +1685,13 @@
     <comp ref="R28">
       <value>12k1</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT12K1</field>
+        <field name="Mpn2">RC0402FR-0712K1L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT12K1"/>
+      <property name="Mpn2" value="RC0402FR-0712K1L"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1554,7 +1702,13 @@
     <comp ref="R29">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1565,7 +1719,13 @@
     <comp ref="R30">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1576,7 +1736,13 @@
     <comp ref="R31">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1587,7 +1753,13 @@
     <comp ref="R32">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1598,7 +1770,13 @@
     <comp ref="R33">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1609,7 +1787,13 @@
     <comp ref="R34">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1620,7 +1804,13 @@
     <comp ref="R35">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-49R9GLF</field>
+        <field name="Mpn2">RMCF0402FT49R9</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-49R9GLF"/>
+      <property name="Mpn2" value="RMCF0402FT49R9"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1631,7 +1821,13 @@
     <comp ref="R36">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-49R9GLF</field>
+        <field name="Mpn2">RMCF0402FT49R9</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-49R9GLF"/>
+      <property name="Mpn2" value="RMCF0402FT49R9"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1642,7 +1838,13 @@
     <comp ref="R37">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -1653,7 +1855,13 @@
     <comp ref="R38">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-49R9GLF</field>
+        <field name="Mpn2">RMCF0402FT49R9</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-49R9GLF"/>
+      <property name="Mpn2" value="RMCF0402FT49R9"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1664,7 +1872,13 @@
     <comp ref="R39">
       <value>49R9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-49R9GLF</field>
+        <field name="Mpn2">RMCF0402FT49R9</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-49R9GLF"/>
+      <property name="Mpn2" value="RMCF0402FT49R9"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1708,7 +1922,13 @@
     <comp ref="R43">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1719,7 +1939,13 @@
     <comp ref="R44">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
       <property name="Sheetname" value="Eth"/>
       <property name="Sheetfile" value="p3_eth.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2067,7 +2293,15 @@
     <comp ref="R45">
       <value>5K1</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT5K10</field>
+        <field name="Mpn2">CR0402-FX-5101GLF</field>
+        <field name="Mpn3">RC0402FR-075K1L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT5K10"/>
+      <property name="Mpn2" value="CR0402-FX-5101GLF"/>
+      <property name="Mpn3" value="RC0402FR-075K1L"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2078,7 +2312,15 @@
     <comp ref="R46">
       <value>5K1</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT5K10</field>
+        <field name="Mpn2">CR0402-FX-5101GLF</field>
+        <field name="Mpn3">RC0402FR-075K1L</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT5K10"/>
+      <property name="Mpn2" value="CR0402-FX-5101GLF"/>
+      <property name="Mpn3" value="RC0402FR-075K1L"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2089,7 +2331,13 @@
     <comp ref="R47">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -2100,7 +2348,15 @@
     <comp ref="R48">
       <value>39R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT39R0</field>
+        <field name="Mpn2">CR0402-FX-39R0GLF</field>
+        <field name="Mpn3">RC0402FR-0739RL</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT39R0"/>
+      <property name="Mpn2" value="CR0402-FX-39R0GLF"/>
+      <property name="Mpn3" value="RC0402FR-0739RL"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2111,7 +2367,15 @@
     <comp ref="R49">
       <value>39R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT39R0</field>
+        <field name="Mpn2">CR0402-FX-39R0GLF</field>
+        <field name="Mpn3">RC0402FR-0739RL</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT39R0"/>
+      <property name="Mpn2" value="CR0402-FX-39R0GLF"/>
+      <property name="Mpn3" value="RC0402FR-0739RL"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2133,7 +2397,15 @@
     <comp ref="R51">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2144,7 +2416,15 @@
     <comp ref="R52">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="p4_usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2432,7 +2712,13 @@
     <comp ref="R56">
       <value>301K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT301K</field>
+        <field name="Mpn2">RC0402FR-07301KL</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT301K"/>
+      <property name="Mpn2" value="RC0402FR-07301KL"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="p5_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2443,7 +2729,13 @@
     <comp ref="R57">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT100K</field>
+        <field name="Mpn2">CR0402-FX-1003GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT100K"/>
+      <property name="Mpn2" value="CR0402-FX-1003GLF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="p5_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2454,7 +2746,13 @@
     <comp ref="R58">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT100K</field>
+        <field name="Mpn2">CR0402-FX-1003GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT100K"/>
+      <property name="Mpn2" value="CR0402-FX-1003GLF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="p5_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2476,7 +2774,13 @@
     <comp ref="R60">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT10K0</field>
+        <field name="Mpn2">CR0402-FX-1002GLF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT10K0"/>
+      <property name="Mpn2" value="CR0402-FX-1002GLF"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="p5_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -2563,9 +2867,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Package" value="0805"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2581,6 +2887,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -2589,6 +2896,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2602,6 +2910,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -2610,6 +2919,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2623,6 +2933,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0603</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">8.7V</field>
       </fields>
@@ -2631,6 +2942,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0603"/>
       <property name="Vworking" value="8.7V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2644,6 +2956,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -2652,6 +2965,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2665,6 +2979,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0603</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">8.7V</field>
       </fields>
@@ -2673,6 +2988,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0603"/>
       <property name="Vworking" value="8.7V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2683,7 +2999,11 @@
     <comp ref="C65">
       <value>Y rated, THT</value>
       <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2694,7 +3014,11 @@
     <comp ref="C66">
       <value>Y rated, SMD 1808</value>
       <footprint>vhrd_generic:C_1808_4520Metric</footprint>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2708,6 +3032,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -2716,6 +3041,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2729,6 +3055,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -2737,6 +3064,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2752,6 +3080,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -2760,6 +3089,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2773,6 +3103,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -2781,6 +3112,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2796,6 +3128,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -2804,6 +3137,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2817,6 +3151,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -2825,6 +3160,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2839,10 +3175,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -2857,10 +3195,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -2870,7 +3210,11 @@
     </comp>
     <comp ref="D5">
       <value>PESD2CANFD24V-QBZ</value>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="D_TVS_Dual_AAC" description="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
@@ -2885,11 +3229,13 @@
         <field name="DCR">0.5Ohm</field>
         <field name="Impedance">1.5k @ 100MHz</field>
         <field name="Irated">500mA</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
       <property name="Irated" value="500mA"/>
       <property name="DCR" value="0.5Ohm"/>
       <property name="Impedance" value="1.5k @ 100MHz"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Ferrite bead"/>
@@ -2904,11 +3250,13 @@
         <field name="DCR">0.5Ohm</field>
         <field name="Impedance">1.5k @ 100MHz</field>
         <field name="Irated">500mA</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
       <property name="Irated" value="500mA"/>
       <property name="DCR" value="0.5Ohm"/>
       <property name="Impedance" value="1.5k @ 100MHz"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Ferrite bead"/>
@@ -2920,7 +3268,11 @@
       <value>D09P33E4GL00LF</value>
       <footprint>vhrd_connector_amphenol:D09P33E4GL00LF</footprint>
       <datasheet> ~</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Connector" part="DE9_Plug_MountingHoles" description="9-pin male plug pin D-SUB connector, Mounting Hole"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="9-pin male plug pin D-SUB connector, Mounting Hole"/>
@@ -2932,7 +3284,11 @@
       <value>EE2-4.5TNUH</value>
       <footprint>Relay_SMD:Relay_DPDT_Kemet_EE2_NUH_DoubleCoil</footprint>
       <datasheet>https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Relay" part="EE2-4.5TNUH" description="General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil"/>
@@ -2949,6 +3305,7 @@
         <field name="Iworking">220mA</field>
         <field name="Mpn1">TKD:MLZ2012M6R8HT000</field>
         <field name="Mpn2">TDK:MLZ2012M6R8HTD25</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
       <property name="Mpn2" value="TDK:MLZ2012M6R8HTD25"/>
@@ -2956,6 +3313,7 @@
       <property name="Irated" value="350mA"/>
       <property name="Iworking" value="220mA"/>
       <property name="Mpn1" value="TKD:MLZ2012M6R8HT000"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Inductor with ferrite core"/>
@@ -2969,9 +3327,11 @@
       <datasheet>https://www.mornsun-power.com/html/pdf/B0505MT-1WR4.html</datasheet>
       <fields>
         <field name="Description">DC DC CONVERTER 5V 1W SMD</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="vhrd_module_power" part="B0505MT-1WR4" description="DC DC CONVERTER 5V 1W SMD"/>
       <property name="Description" value="DC DC CONVERTER 5V 1W SMD"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="DC DC CONVERTER 5V 1W SMD"/>
@@ -2982,7 +3342,11 @@
       <value>BSS138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
@@ -2994,7 +3358,11 @@
       <value>BSS138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
@@ -3005,7 +3373,15 @@
     <comp ref="R61">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3016,7 +3392,15 @@
     <comp ref="R62">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3027,7 +3411,15 @@
     <comp ref="R63">
       <value>60R4</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0603FT60R4</field>
+        <field name="Mpn2">CR0603-FX-60R4ELF</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0603FT60R4"/>
+      <property name="Mpn2" value="CR0603-FX-60R4ELF"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3038,7 +3430,15 @@
     <comp ref="R64">
       <value>60R4</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0603FT60R4</field>
+        <field name="Mpn2">CR0603-FX-60R4ELF</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0603FT60R4"/>
+      <property name="Mpn2" value="CR0603-FX-60R4ELF"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3094,7 +3494,11 @@
       <value>ADM3050EBRIZ</value>
       <footprint>vhrd_generic:RI-8-1_ADI</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3050E.pdf</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="vhrd_interface_can" part="ADM3050E" description="5.7 kV rms, Signal Isolated, Basic CAN FD Transceiver"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="5.7 kV rms, Signal Isolated, Basic CAN FD Transceiver"/>
@@ -3105,7 +3509,11 @@
       <value>TLP2270</value>
       <footprint>vhrd_generic:SO8L_TOS</footprint>
       <datasheet>https://toshiba.semicon-storage.com/info/TLP2270_datasheet_en_20191126.pdf?did=54624&amp;prodName=TLP2270</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="vhrd_opto_isolators" part="TLP2270" description="MOSFET Photorelay 2ch"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch1"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="MOSFET Photorelay 2ch"/>
@@ -3118,9 +3526,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Package" value="0805"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3136,6 +3546,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3144,6 +3555,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3157,6 +3569,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -3165,6 +3578,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3178,6 +3592,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0603</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">8.7V</field>
       </fields>
@@ -3186,6 +3601,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0603"/>
       <property name="Vworking" value="8.7V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3199,6 +3615,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -3207,6 +3624,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3220,6 +3638,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0603</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">8.7V</field>
       </fields>
@@ -3228,6 +3647,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0603"/>
       <property name="Vworking" value="8.7V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3238,7 +3658,11 @@
     <comp ref="C79">
       <value>Y rated, THT</value>
       <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3249,7 +3673,11 @@
     <comp ref="C80">
       <value>Y rated, SMD 1808</value>
       <footprint>vhrd_generic:C_1808_4520Metric</footprint>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3263,6 +3691,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -3271,6 +3700,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3284,6 +3714,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -3292,6 +3723,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3307,6 +3739,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3315,6 +3748,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3328,6 +3762,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -3336,6 +3771,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3351,6 +3787,7 @@
         <field name="Mpn1">Samsung:CL21B106KPQNNNE</field>
         <field name="Mpn2">Murata:GRM21BR71A106KA73K</field>
         <field name="Package">0805</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3359,6 +3796,7 @@
       <property name="Package" value="0805"/>
       <property name="Mpn1" value="Samsung:CL21B106KPQNNNE"/>
       <property name="Mpn2" value="Murata:GRM21BR71A106KA73K"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3372,6 +3810,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">can_ch2</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -3380,6 +3819,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3394,10 +3834,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -3412,10 +3854,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -3425,7 +3869,11 @@
     </comp>
     <comp ref="D8">
       <value>PESD2CANFD24V-QBZ</value>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="D_TVS_Dual_AAC" description="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
@@ -3440,11 +3888,13 @@
         <field name="DCR">0.5Ohm</field>
         <field name="Impedance">1.5k @ 100MHz</field>
         <field name="Irated">500mA</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
       <property name="Irated" value="500mA"/>
       <property name="DCR" value="0.5Ohm"/>
       <property name="Impedance" value="1.5k @ 100MHz"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Ferrite bead"/>
@@ -3459,11 +3909,13 @@
         <field name="DCR">0.5Ohm</field>
         <field name="Impedance">1.5k @ 100MHz</field>
         <field name="Irated">500mA</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
       <property name="Irated" value="500mA"/>
       <property name="DCR" value="0.5Ohm"/>
       <property name="Impedance" value="1.5k @ 100MHz"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Ferrite bead"/>
@@ -3475,7 +3927,11 @@
       <value>D09P33E4GL00LF</value>
       <footprint>vhrd_connector_amphenol:D09P33E4GL00LF</footprint>
       <datasheet> ~</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Connector" part="DE9_Plug_MountingHoles" description="9-pin male plug pin D-SUB connector, Mounting Hole"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="9-pin male plug pin D-SUB connector, Mounting Hole"/>
@@ -3487,7 +3943,11 @@
       <value>EE2-4.5TNUH</value>
       <footprint>Relay_SMD:Relay_DPDT_Kemet_EE2_NUH_DoubleCoil</footprint>
       <datasheet>https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Relay" part="EE2-4.5TNUH" description="General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), double coil latching, small footprint SMD, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil"/>
@@ -3504,6 +3964,7 @@
         <field name="Iworking">220mA</field>
         <field name="Mpn1">TKD:MLZ2012M6R8HT000</field>
         <field name="Mpn2">TDK:MLZ2012M6R8HTD25</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
       <property name="Mpn2" value="TDK:MLZ2012M6R8HTD25"/>
@@ -3511,6 +3972,7 @@
       <property name="Irated" value="350mA"/>
       <property name="Iworking" value="220mA"/>
       <property name="Mpn1" value="TKD:MLZ2012M6R8HT000"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Inductor with ferrite core"/>
@@ -3524,9 +3986,11 @@
       <datasheet>https://www.mornsun-power.com/html/pdf/B0505MT-1WR4.html</datasheet>
       <fields>
         <field name="Description">DC DC CONVERTER 5V 1W SMD</field>
+        <field name="Variant">can_ch2</field>
       </fields>
       <libsource lib="vhrd_module_power" part="B0505MT-1WR4" description="DC DC CONVERTER 5V 1W SMD"/>
       <property name="Description" value="DC DC CONVERTER 5V 1W SMD"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="DC DC CONVERTER 5V 1W SMD"/>
@@ -3537,7 +4001,11 @@
       <value>BSS138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
@@ -3549,7 +4017,11 @@
       <value>BSS138</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
@@ -3560,7 +4032,15 @@
     <comp ref="R65">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3571,7 +4051,15 @@
     <comp ref="R66">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3582,7 +4070,15 @@
     <comp ref="R67">
       <value>60R4</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0603FT60R4</field>
+        <field name="Mpn2">CR0603-FX-60R4ELF</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0603FT60R4"/>
+      <property name="Mpn2" value="CR0603-FX-60R4ELF"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3593,7 +4089,15 @@
     <comp ref="R68">
       <value>60R4</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0603FT60R4</field>
+        <field name="Mpn2">CR0603-FX-60R4ELF</field>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0603FT60R4"/>
+      <property name="Mpn2" value="CR0603-FX-60R4ELF"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -3649,7 +4153,11 @@
       <value>ADM3050EBRIZ</value>
       <footprint>vhrd_generic:RI-8-1_ADI</footprint>
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3050E.pdf</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="vhrd_interface_can" part="ADM3050E" description="5.7 kV rms, Signal Isolated, Basic CAN FD Transceiver"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="5.7 kV rms, Signal Isolated, Basic CAN FD Transceiver"/>
@@ -3660,7 +4168,11 @@
       <value>TLP2270</value>
       <footprint>vhrd_generic:SO8L_TOS</footprint>
       <datasheet>https://toshiba.semicon-storage.com/info/TLP2270_datasheet_en_20191126.pdf?did=54624&amp;prodName=TLP2270</datasheet>
+      <fields>
+        <field name="Variant">can_ch2</field>
+      </fields>
       <libsource lib="vhrd_opto_isolators" part="TLP2270" description="MOSFET Photorelay 2ch"/>
+      <property name="Variant" value="can_ch2"/>
       <property name="Sheetname" value="CAN Ch2"/>
       <property name="Sheetfile" value="p6_can_ch1.kicad_sch"/>
       <property name="ki_description" value="MOSFET Photorelay 2ch"/>
@@ -3675,6 +4187,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B475KCVZW6E</field>
         <field name="Package">1210</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3682,6 +4195,7 @@
       <property name="Mpn1" value="Samsung:CL32B475KCVZW6E"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3696,6 +4210,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL21B104KCFNNNE</field>
         <field name="Package">0805</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3703,6 +4218,7 @@
       <property name="Mpn1" value="Samsung:CL21B104KCFNNNE"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0805"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3716,12 +4232,14 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">1210</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Voltage" value="100V"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3735,6 +4253,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0603</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">8.7V</field>
       </fields>
@@ -3743,6 +4262,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0603"/>
       <property name="Vworking" value="8.7V"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3757,6 +4277,7 @@
         <field name="Dielectric">C0G</field>
         <field name="Mpn1">Kemet:C0603C680J2GAC7867</field>
         <field name="Package">0603</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">200V</field>
         <field name="Vworking">150V</field>
       </fields>
@@ -3766,6 +4287,7 @@
       <property name="Package" value="0603"/>
       <property name="Vworking" value="150V"/>
       <property name="Mpn1" value="Kemet:C0603C680J2GAC7867"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3776,7 +4298,11 @@
     <comp ref="C92">
       <value>Y rated, THT</value>
       <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3787,7 +4313,11 @@
     <comp ref="C93">
       <value>Y rated, SMD 1808</value>
       <footprint>vhrd_generic:C_1808_4520Metric</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3801,6 +4331,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -3809,6 +4340,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3823,6 +4355,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Taiyo:LMK325BJ476MM-P</field>
         <field name="Package">1210</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3830,6 +4363,7 @@
       <property name="Mpn1" value="Taiyo:LMK325BJ476MM-P"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3843,6 +4377,7 @@
       <fields>
         <field name="Dielectric">C0G</field>
         <field name="Package">0402</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -3851,6 +4386,7 @@
       <property name="Dielectric" value="C0G"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3864,6 +4400,7 @@
       <fields>
         <field name="Dielectric">C0G</field>
         <field name="Package">0402</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -3872,6 +4409,7 @@
       <property name="Dielectric" value="C0G"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3886,6 +4424,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Taiyo:LMK325BJ476MM-P</field>
         <field name="Package">1210</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -3893,6 +4432,7 @@
       <property name="Mpn1" value="Taiyo:LMK325BJ476MM-P"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3906,6 +4446,7 @@
       <fields>
         <field name="Dielectric">C0G</field>
         <field name="Package">0402</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">?</field>
       </fields>
@@ -3914,6 +4455,7 @@
       <property name="Dielectric" value="C0G"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="?"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3926,11 +4468,13 @@
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <fields>
         <field name="Mpn1">Nichicon:UUR1C221MCL6GS</field>
+        <field name="Variant">poe</field>
         <field name="Voltage">16V</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Mpn1" value="Nichicon:UUR1C221MCL6GS"/>
       <property name="Voltage" value="16V"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Polarized capacitor"/>
@@ -3941,7 +4485,11 @@
     <comp ref="D9">
       <value>HDS10M-13</value>
       <footprint>vhrd_passive_diode:DIOB_HDS10M-13</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="D_Bridge_+A-A" description="Diode bridge, +ve/AC/-ve/AC"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Diode bridge, +ve/AC/-ve/AC"/>
@@ -3952,7 +4500,11 @@
     <comp ref="D10">
       <value>HDS10M-13</value>
       <footprint>vhrd_passive_diode:DIOB_HDS10M-13</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="D_Bridge_+A-A" description="Diode bridge, +ve/AC/-ve/AC"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Diode bridge, +ve/AC/-ve/AC"/>
@@ -3963,7 +4515,11 @@
     <comp ref="D11">
       <value>SMAJ58A</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Zener diode"/>
@@ -3974,7 +4530,11 @@
     <comp ref="D12">
       <value>MMSZ5237BS-7-F</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Zener diode"/>
@@ -3989,10 +4549,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -4007,10 +4569,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -4025,10 +4589,12 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Diode" part="BAS516" description="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="100V, 0.25A, High-speed Switching Diode, SOD-523"/>
@@ -4039,7 +4605,11 @@
     <comp ref="D16">
       <value>PDS360-13</value>
       <footprint>Diode_SMD:D_PowerDI-5</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -4066,6 +4636,7 @@
         <field name="Iworking">140mA</field>
         <field name="Mpn1">TKD:MLZ2012A3R3WT000</field>
         <field name="Mpn2">Murata:LQM21PN3R3NG0D</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
       <property name="Mpn2" value="Murata:LQM21PN3R3NG0D"/>
@@ -4073,6 +4644,7 @@
       <property name="Irated" value="450mA"/>
       <property name="Iworking" value="140mA"/>
       <property name="Mpn1" value="TKD:MLZ2012A3R3WT000"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Inductor with ferrite core"/>
@@ -4084,7 +4656,11 @@
       <value>MMBTA42</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="MMBTA42" description="0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"/>
@@ -4096,7 +4672,11 @@
       <value>Si3440DV</value>
       <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
       <datasheet>https://www.vishay.com/docs/69075/si3456ddv.pdf</datasheet>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Transistor_FET" part="Si3456DDV" description="30V Vds, 6.3A Id, N-Channel MOSFET, TSOP-6"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="30V Vds, 6.3A Id, N-Channel MOSFET, TSOP-6"/>
@@ -4108,7 +4688,11 @@
       <value>2N7002</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -4119,7 +4703,11 @@
     <comp ref="R69">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4130,7 +4718,11 @@
     <comp ref="R70">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4141,7 +4733,11 @@
     <comp ref="R71">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4152,7 +4748,11 @@
     <comp ref="R72">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4163,7 +4763,15 @@
     <comp ref="R73">
       <value>220K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT220K</field>
+        <field name="Mpn2">RC0402FR-07220KL</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT220K"/>
+      <property name="Mpn2" value="RC0402FR-07220KL"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4174,7 +4782,15 @@
     <comp ref="R74">
       <value>220K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT220K</field>
+        <field name="Mpn2">RC0402FR-07220KL</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT220K"/>
+      <property name="Mpn2" value="RC0402FR-07220KL"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4185,7 +4801,17 @@
     <comp ref="R75">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4196,7 +4822,15 @@
     <comp ref="R76">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT100K</field>
+        <field name="Mpn2">CR0402-FX-1003GLF</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT100K"/>
+      <property name="Mpn2" value="CR0402-FX-1003GLF"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4208,10 +4842,16 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
+        <field name="Mpn1">RMCF0805FT100R</field>
+        <field name="Mpn2">CR0805-FX-1000ELF</field>
         <field name="Power">1/8W</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Power" value="1/8W"/>
+      <property name="Mpn1" value="RMCF0805FT100R"/>
+      <property name="Mpn2" value="CR0805-FX-1000ELF"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4222,7 +4862,15 @@
     <comp ref="R78">
       <value>4K7</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-4701GLF</field>
+        <field name="Mpn2">RMCF0402FT4K70</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-4701GLF"/>
+      <property name="Mpn2" value="RMCF0402FT4K70"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4235,9 +4883,11 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
         <field name="Power">1/4W</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Power" value="1/4W"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4248,7 +4898,15 @@
     <comp ref="R80">
       <value>6K8</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT6K80</field>
+        <field name="Mpn2">RC0402FR-076K8L</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT6K80"/>
+      <property name="Mpn2" value="RC0402FR-076K8L"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4259,7 +4917,17 @@
     <comp ref="R81">
       <value>510R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-5100GLF</field>
+        <field name="Mpn2">RMCF0402FT510R</field>
+        <field name="Mpn3">RC0402FR-07510RL</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-5100GLF"/>
+      <property name="Mpn2" value="RMCF0402FT510R"/>
+      <property name="Mpn3" value="RC0402FR-07510RL"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4270,7 +4938,15 @@
     <comp ref="R82">
       <value>10R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0603FT10R0</field>
+        <field name="Mpn2">CRCW060310R0FKEAC</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0603FT10R0"/>
+      <property name="Mpn2" value="CRCW060310R0FKEAC"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4281,7 +4957,15 @@
     <comp ref="R83">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT1K00</field>
+        <field name="Mpn2">RC0402FR-071KL</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT1K00"/>
+      <property name="Mpn2" value="RC0402FR-071KL"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4292,7 +4976,17 @@
     <comp ref="R84">
       <value>470R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-4700GLF</field>
+        <field name="Mpn2">RMCF0402FT470R</field>
+        <field name="Mpn3">RC0402FR-07470RL</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-4700GLF"/>
+      <property name="Mpn2" value="RMCF0402FT470R"/>
+      <property name="Mpn3" value="RC0402FR-07470RL"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4303,7 +4997,15 @@
     <comp ref="R85">
       <value>47K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-4702GLF</field>
+        <field name="Mpn2">RMCF0402FT47K0</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-4702GLF"/>
+      <property name="Mpn2" value="RMCF0402FT47K0"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4314,7 +5016,15 @@
     <comp ref="R86">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT100K</field>
+        <field name="Mpn2">CR0402-FX-1003GLF</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT100K"/>
+      <property name="Mpn2" value="CR0402-FX-1003GLF"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4325,7 +5035,17 @@
     <comp ref="R87">
       <value>33K2</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT33K2</field>
+        <field name="Mpn2">CR0402-FX-3322GLF</field>
+        <field name="Mpn3">RC0402FR-0733K2L</field>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT33K2"/>
+      <property name="Mpn2" value="CR0402-FX-3322GLF"/>
+      <property name="Mpn3" value="RC0402FR-0733K2L"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4339,9 +5059,11 @@
       <datasheet>https://www.digikey.com/en/products/detail/pulse-electronics/PA1134NLT/2265451</datasheet>
       <fields>
         <field name="Description">XFRMR 5V 7W 253UH POE EP10 SMD</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="vhrd_transformer" part="PA1134NL" description="253µH Isolation and Data Interface (Encapsulated) Pulse Transformer 1:0.125:0.208 Surface Mount"/>
       <property name="Description" value="XFRMR 5V 7W 253UH POE EP10 SMD"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="253µH Isolation and Data Interface (Encapsulated) Pulse Transformer 1:0.125:0.208 Surface Mount"/>
@@ -4474,9 +5196,11 @@
       <footprint>Package_DFN_QFN:DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm</footprint>
       <fields>
         <field name="Description">Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="vhrd_pmic_controller" part="LTC4267" description=""/>
       <property name="Description" value="Power over Ethernet IEEE 802.3af PD Interface with Integrated Switching Regulator"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <sheetpath names="/PoE/" tstamps="/5caca214-bd98-4d53-9e0b-a904082b09c6/"/>
@@ -4486,7 +5210,11 @@
       <value>PS2911-1-F3-AX</value>
       <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
       <datasheet>http://www.everlight.com/file/ProductFile/EL817.pdf</datasheet>
+      <fields>
+        <field name="Variant">poe</field>
+      </fields>
       <libsource lib="Isolator" part="EL817" description="DC Optocoupler, Vce 35V, DIP-4"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="DC Optocoupler, Vce 35V, DIP-4"/>
@@ -4501,10 +5229,12 @@
       <fields>
         <field name="Mpn1">Diodes:ZR431</field>
         <field name="Mpn2">TI:TL432DBZ</field>
+        <field name="Variant">poe</field>
       </fields>
       <libsource lib="Reference_Voltage" part="TL432DBZ" description="Shunt Regulator, SOT-23"/>
       <property name="Mpn1" value="Diodes:ZR431"/>
       <property name="Mpn2" value="TI:TL432DBZ"/>
+      <property name="Variant" value="poe"/>
       <property name="Sheetname" value="PoE"/>
       <property name="Sheetfile" value="p8_poe.kicad_sch"/>
       <property name="ki_description" value="Shunt Regulator, SOT-23"/>
@@ -4519,6 +5249,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B475KCVZW6E</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4526,6 +5257,7 @@
       <property name="Mpn1" value="Samsung:CL32B475KCVZW6E"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4540,6 +5272,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B475KCVZW6E</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4547,6 +5280,7 @@
       <property name="Mpn1" value="Samsung:CL32B475KCVZW6E"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4561,6 +5295,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B106KBJNNNE</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_dc</field>
         <field name="Voltage">50V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4568,6 +5303,7 @@
       <property name="Mpn1" value="Samsung:CL32B106KBJNNNE"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4582,6 +5318,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B475KCVZW6E</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4589,6 +5326,7 @@
       <property name="Mpn1" value="Samsung:CL32B475KCVZW6E"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="dnp"/>
@@ -4603,6 +5341,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">bp_dc</field>
         <field name="Voltage">50V</field>
         <field name="Vworking">36V</field>
       </fields>
@@ -4612,6 +5351,7 @@
       <property name="Package" value="0402"/>
       <property name="Vworking" value="36V"/>
       <property name="Field8" value=""/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4626,6 +5366,7 @@
         <field name="Dielectric">X7R</field>
         <field name="Mpn1">Samsung:CL32B475KCVZW6E</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">100V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4633,6 +5374,7 @@
       <property name="Mpn1" value="Samsung:CL32B475KCVZW6E"/>
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="dnp"/>
@@ -4647,6 +5389,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">bp_dc</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -4655,6 +5398,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4668,6 +5412,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">6.3V</field>
         <field name="Vworking">20V</field>
       </fields>
@@ -4677,6 +5422,7 @@
       <property name="Package" value="0402"/>
       <property name="Vworking" value="20V"/>
       <property name="Field8" value=""/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4690,6 +5436,7 @@
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Package">0402</field>
+        <field name="Variant">bp_dc</field>
         <field name="Voltage">16V</field>
         <field name="Vworking">3.3V</field>
       </fields>
@@ -4698,6 +5445,7 @@
       <property name="Dielectric" value="X7R"/>
       <property name="Package" value="0402"/>
       <property name="Vworking" value="3.3V"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4711,6 +5459,7 @@
       <fields>
         <field name="Dielectric">C0G</field>
         <field name="Package">0603</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">250V</field>
         <field name="Vworking">20V</field>
       </fields>
@@ -4720,6 +5469,7 @@
       <property name="Package" value="0603"/>
       <property name="Vworking" value="20V"/>
       <property name="Field8" value=""/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4734,6 +5484,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Murata:GRM32ER61A107ME20K</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_dc</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4741,6 +5492,7 @@
       <property name="Mpn1" value="Murata:GRM32ER61A107ME20K"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4755,6 +5507,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Murata:GRM32ER61A107ME20K</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4762,6 +5515,7 @@
       <property name="Mpn1" value="Murata:GRM32ER61A107ME20K"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4776,6 +5530,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Murata:GRM32ER61A107ME20K</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4783,6 +5538,7 @@
       <property name="Mpn1" value="Murata:GRM32ER61A107ME20K"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4797,6 +5553,7 @@
         <field name="Dielectric">X5R</field>
         <field name="Mpn1">Murata:GRM32ER61A107ME20K</field>
         <field name="Package">1210</field>
+        <field name="Variant">bp_iso</field>
         <field name="Voltage">10V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -4804,6 +5561,7 @@
       <property name="Mpn1" value="Murata:GRM32ER61A107ME20K"/>
       <property name="Dielectric" value="X5R"/>
       <property name="Package" value="1210"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -4836,7 +5594,11 @@
     <comp ref="D19">
       <value>CMZ5944B</value>
       <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Zener diode"/>
@@ -4847,7 +5609,11 @@
     <comp ref="D20">
       <value>RB168MM150TFTR</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -4860,11 +5626,13 @@
       <footprint>Diode_SMD:D_PowerDI-5</footprint>
       <fields>
         <field name="Irated">3A</field>
+        <field name="Variant">bp_dc</field>
         <field name="Vrated">60V</field>
       </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="Vrated" value="60V"/>
       <property name="Irated" value="3A"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -4877,11 +5645,13 @@
       <footprint>Diode_SMD:D_PowerDI-5</footprint>
       <fields>
         <field name="Irated">3A</field>
+        <field name="Variant">bp_iso</field>
         <field name="Vrated">60V</field>
       </fields>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="Vrated" value="60V"/>
       <property name="Irated" value="3A"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Schottky diode"/>
@@ -4892,7 +5662,11 @@
     <comp ref="D23">
       <value>5V6?</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Zener diode"/>
@@ -4907,11 +5681,13 @@
         <field name="Inductance">8.2uH</field>
         <field name="Irated">4.5A</field>
         <field name="Isat">6A</field>
+        <field name="Variant">bp_dc</field>
       </fields>
       <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
       <property name="Irated" value="4.5A"/>
       <property name="Inductance" value="8.2uH"/>
       <property name="Isat" value="6A"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Inductor with iron core"/>
@@ -4922,7 +5698,15 @@
     <comp ref="R88">
       <value>49K9</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT49K9</field>
+        <field name="Mpn2">CR0402-FX-4992GLF</field>
+        <field name="Variant">bp_dc</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT49K9"/>
+      <property name="Mpn2" value="CR0402-FX-4992GLF"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4933,7 +5717,15 @@
     <comp ref="R89">
       <value>1M</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-1004GLF</field>
+        <field name="Mpn2">RMCF0402FT1M00</field>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-1004GLF"/>
+      <property name="Mpn2" value="RMCF0402FT1M00"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4944,7 +5736,15 @@
     <comp ref="R90">
       <value>348K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT348K</field>
+        <field name="Mpn2">RC0402FR-07348KL</field>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT348K"/>
+      <property name="Mpn2" value="RC0402FR-07348KL"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4955,7 +5755,17 @@
     <comp ref="R91">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+        <field name="Variant">bp_dc</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4966,7 +5776,11 @@
     <comp ref="R92">
       <value>?R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="dnp"/>
@@ -4978,7 +5792,17 @@
     <comp ref="R93">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -4989,7 +5813,15 @@
     <comp ref="R94">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">CR0402-FX-1000GLF</field>
+        <field name="Mpn2">RMCF0402FT100R</field>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="CR0402-FX-1000GLF"/>
+      <property name="Mpn2" value="RMCF0402FT100R"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5000,7 +5832,15 @@
     <comp ref="R95">
       <value>158K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT158K</field>
+        <field name="Mpn2">RC0402FR-07158KL</field>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT158K"/>
+      <property name="Mpn2" value="RC0402FR-07158KL"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5011,7 +5851,17 @@
     <comp ref="R96">
       <value>57K6</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RMCF0402FT57K6</field>
+        <field name="Mpn2">RC0402FR-0757K6L</field>
+        <field name="Mpn3">AC0402FR-0757K6L</field>
+        <field name="Variant">bp_dc</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RMCF0402FT57K6"/>
+      <property name="Mpn2" value="RC0402FR-0757K6L"/>
+      <property name="Mpn3" value="AC0402FR-0757K6L"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5022,7 +5872,17 @@
     <comp ref="R97">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Mpn1">RM04F1002CT</field>
+        <field name="Mpn2">RMCF0402FT10K0</field>
+        <field name="Mpn3">CR0402-FX-1002GLF</field>
+        <field name="Variant">bp_dc</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Mpn1" value="RM04F1002CT"/>
+      <property name="Mpn2" value="RMCF0402FT10K0"/>
+      <property name="Mpn3" value="CR0402-FX-1002GLF"/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5034,7 +5894,11 @@
       <value>750315125</value>
       <footprint>vhrd_transformer:750315125</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/750315125_Dwg~.pdf</datasheet>
+      <fields>
+        <field name="Variant">bp_iso</field>
+      </fields>
       <libsource lib="vhrd_transformer" part="750315125" description=""/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <sheetpath names="/Bus Power/" tstamps="/2334f909-fe66-4647-954f-aa86c22b7af3/"/>
@@ -5121,7 +5985,11 @@
       <value>LV14360SDDAR</value>
       <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/lv14360.pdf</datasheet>
+      <fields>
+        <field name="Variant">bp_dc</field>
+      </fields>
       <libsource lib="vhrd_pmic_regulator" part="LV14360SDDAR" description=""/>
+      <property name="Variant" value="bp_dc"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <sheetpath names="/Bus Power/" tstamps="/2334f909-fe66-4647-954f-aa86c22b7af3/"/>
@@ -5133,9 +6001,11 @@
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/8304fa.pdf</datasheet>
       <fields>
         <field name="Description">100VIN Micropower No-Opto Isolated Flyback Converter with 150V/2A Switch</field>
+        <field name="Variant">bp_iso</field>
       </fields>
       <libsource lib="vhrd_pmic_regulator" part="LT8304" description=""/>
       <property name="Description" value="100VIN Micropower No-Opto Isolated Flyback Converter with 150V/2A Switch"/>
+      <property name="Variant" value="bp_iso"/>
       <property name="Sheetname" value="Bus Power"/>
       <property name="Sheetfile" value="p9_bus_power.kicad_sch"/>
       <sheetpath names="/Bus Power/" tstamps="/2334f909-fe66-4647-954f-aa86c22b7af3/"/>
@@ -6504,55 +7374,55 @@
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
     <library logical="vhrd_connector_abracon">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_connector_abracon.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_connector_abracon.kicad_sym</uri>
     </library>
     <library logical="vhrd_connector_battery">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_connector_battery.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_connector_battery.kicad_sym</uri>
     </library>
     <library logical="vhrd_connector_debug">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_connector_debug.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_connector_debug.kicad_sym</uri>
     </library>
     <library logical="vhrd_connector_generic">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_connector_generic.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_connector_generic.kicad_sym</uri>
     </library>
     <library logical="vhrd_crystal">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_crystal.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_crystal.kicad_sym</uri>
     </library>
     <library logical="vhrd_interface_can">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_interface_can.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_interface_can.kicad_sym</uri>
     </library>
     <library logical="vhrd_interface_ethernet">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_interface_ethernet.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_interface_ethernet.kicad_sym</uri>
     </library>
     <library logical="vhrd_interface_usb">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_interface_usb.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_interface_usb.kicad_sym</uri>
     </library>
     <library logical="vhrd_mcu_stm_h7">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_mcu_stm_h7.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_mcu_stm_h7.kicad_sym</uri>
     </library>
     <library logical="vhrd_module_power">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_module_power.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_module_power.kicad_sym</uri>
     </library>
     <library logical="vhrd_opto_display">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_opto_display.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_opto_display.kicad_sym</uri>
     </library>
     <library logical="vhrd_opto_isolators">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_opto_isolators.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_opto_isolators.kicad_sym</uri>
     </library>
     <library logical="vhrd_passive_tvs">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_passive_tvs.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_passive_tvs.kicad_sym</uri>
     </library>
     <library logical="vhrd_pmic_controller">
-      <uri>C:/Users/Evgeniy/Documents/GitHub/kicad-library/symbols/vhrd_pmic_controller.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_pmic_controller.kicad_sym</uri>
     </library>
     <library logical="vhrd_pmic_regulator">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_pmic_regulator.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_pmic_regulator.kicad_sym</uri>
     </library>
     <library logical="vhrd_pmic_switch">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_pmic_switch.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_pmic_switch.kicad_sym</uri>
     </library>
     <library logical="vhrd_transformer">
-      <uri>C:\Users\Evgeniy\Documents\GitHub\kicad-library\symbols\vhrd_transformer.kicad_sym</uri>
+      <uri>C:/Users/Roman/Documents/GitHub/kicad-library/symbols/vhrd_transformer.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -6594,7 +7464,6 @@
       <node ref="M1" pin="5" pinfunction="VBAT" pintype="power_in"/>
       <node ref="M1" pin="7" pinfunction="VDD" pintype="power_in"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
@@ -6612,11 +7481,9 @@
       <node ref="R37" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R47" pin="2" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R58" pin="2" pintype="passive"/>
       <node ref="R59" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="D11" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="D5" pinfunction="VDD" pintype="power_in"/>
@@ -7095,116 +7962,122 @@
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U1" pin="N7" pinfunction="PF11" pintype="bidirectional"/>
     </net>
-    <net code="81" name="/MCU_H7/RID_PRODUCT">
+    <net code="81" name="/MCU_H7/RID_EN">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="P5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="/MCU_H7/RID_PRODUCT">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="P3" pinfunction="PA1_C" pintype="bidirectional"/>
     </net>
-    <net code="82" name="/MCU_H7/RID_REV">
+    <net code="83" name="/MCU_H7/RID_REV">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="R7" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="83" name="/MCU_H7/SDMMC_CK">
+    <net code="84" name="/MCU_H7/SDMMC_CK">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U1" pin="B11" pinfunction="PC12" pintype="bidirectional"/>
     </net>
-    <net code="84" name="/MCU_H7/SDMMC_CKJ">
+    <net code="85" name="/MCU_H7/SDMMC_CKJ">
       <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="85" name="/MCU_H7/SDMMC_CMD">
+    <net code="86" name="/MCU_H7/SDMMC_CMD">
       <node ref="J1" pin="3" pinfunction="CMD" pintype="input"/>
       <node ref="U1" pin="B10" pinfunction="PD2" pintype="bidirectional"/>
     </net>
-    <net code="86" name="/MCU_H7/SDMMC_D0">
+    <net code="87" name="/MCU_H7/SDMMC_D0">
       <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
       <node ref="U1" pin="D14" pinfunction="PC8" pintype="bidirectional"/>
     </net>
-    <net code="87" name="/MCU_H7/SDMMC_D1">
+    <net code="88" name="/MCU_H7/SDMMC_D1">
       <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
       <node ref="U1" pin="E13" pinfunction="PC9" pintype="bidirectional"/>
     </net>
-    <net code="88" name="/MCU_H7/SDMMC_D2">
+    <net code="89" name="/MCU_H7/SDMMC_D2">
       <node ref="J1" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
       <node ref="U1" pin="C12" pinfunction="PC10" pintype="bidirectional"/>
     </net>
-    <net code="89" name="/MCU_H7/SDMMC_D3">
+    <net code="90" name="/MCU_H7/SDMMC_D3">
       <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
       <node ref="U1" pin="C11" pinfunction="PC11" pintype="bidirectional"/>
     </net>
-    <net code="90" name="/MCU_H7/SDMMC_PRESENT">
+    <net code="91" name="/MCU_H7/SDMMC_PRESENT">
       <node ref="J1" pin="10" pinfunction="DET_A" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U1" pin="G14" pinfunction="PG4" pintype="bidirectional"/>
     </net>
-    <net code="91" name="/MCU_H7/SPI1_MISO">
+    <net code="92" name="/MCU_H7/SPI1_MISO">
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="B6" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="92" name="/MCU_H7/SPI1_MOSI">
+    <net code="93" name="/MCU_H7/SPI1_MOSI">
       <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="B8" pinfunction="PD7" pintype="bidirectional"/>
     </net>
-    <net code="93" name="/MCU_H7/SPI1_NSS">
+    <net code="94" name="/MCU_H7/SPI1_NSS">
       <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U1" pin="A11" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="94" name="/MCU_H7/SPI1_SCK">
+    <net code="95" name="/MCU_H7/SPI1_SCK">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="A6" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="95" name="/MCU_H7/SPI2_MISO">
+    <net code="96" name="/MCU_H7/SPI2_MISO">
       <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="U1" pin="K15" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="96" name="/MCU_H7/SPI2_MOSI">
+    <net code="97" name="/MCU_H7/SPI2_MOSI">
       <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="U1" pin="K14" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="97" name="/MCU_H7/SPI2_NSS">
+    <net code="98" name="/MCU_H7/SPI2_NSS">
       <node ref="J3" pin="19" pinfunction="Pin_19" pintype="passive"/>
       <node ref="U1" pin="B3" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="98" name="/MCU_H7/SPI2_SCK">
+    <net code="99" name="/MCU_H7/SPI2_SCK">
       <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="U1" pin="A9" pinfunction="PD3" pintype="bidirectional"/>
     </net>
-    <net code="99" name="/MCU_H7/USART1_RX">
+    <net code="100" name="/MCU_H7/USART1_RX">
       <node ref="J3" pin="29" pinfunction="Pin_29" pintype="passive"/>
       <node ref="U1" pin="B5" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="100" name="/MCU_H7/USART1_TX">
+    <net code="101" name="/MCU_H7/USART1_TX">
       <node ref="J3" pin="27" pinfunction="Pin_27" pintype="passive"/>
       <node ref="U1" pin="A5" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="101" name="/MCU_H7/USART2_RX">
+    <net code="102" name="/MCU_H7/USART2_RX">
       <node ref="J3" pin="35" pinfunction="Pin_35" pintype="passive"/>
       <node ref="U1" pin="D9" pinfunction="PD6" pintype="bidirectional"/>
     </net>
-    <net code="102" name="/MCU_H7/USART2_TX">
+    <net code="103" name="/MCU_H7/USART2_TX">
       <node ref="J3" pin="33" pinfunction="Pin_33" pintype="passive"/>
       <node ref="U1" pin="B9" pinfunction="PD5" pintype="bidirectional"/>
     </net>
-    <net code="103" name="/MCU_H7/VBAT">
+    <net code="104" name="/MCU_H7/VBAT">
       <node ref="B1" pin="P" pinfunction="P" pintype="passive"/>
       <node ref="U1" pin="E2" pinfunction="VBAT" pintype="power_in"/>
     </net>
-    <net code="104" name="/MCU_H7/VCAP">
+    <net code="105" name="/MCU_H7/VCAP">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="U1" pin="A14" pinfunction="VCAP" pintype="power_out"/>
       <node ref="U1" pin="A4" pinfunction="VCAP" pintype="power_out"/>
       <node ref="U1" pin="R13" pinfunction="VCAP" pintype="power_out"/>
     </net>
-    <net code="105" name="/MCU_H7/VDDA">
+    <net code="106" name="/MCU_H7/VDDA">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U1" pin="M3" pinfunction="VREF+" pintype="input"/>
       <node ref="U1" pin="M4" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="106" name="/MCU_H7/VDDLDO">
+    <net code="107" name="/MCU_H7/VDDLDO">
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
@@ -7213,21 +8086,21 @@
       <node ref="U1" pin="G2" pinfunction="VFBSMPS" pintype="input"/>
       <node ref="U1" pin="R14" pinfunction="VDDLDO" pintype="power_in"/>
     </net>
-    <net code="107" name="/MCU_H7/VDDSMPS">
+    <net code="108" name="/MCU_H7/VDDSMPS">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="U1" pin="G1" pinfunction="VDDSMPS" pintype="power_in"/>
     </net>
-    <net code="108" name="/MCU_H7/VLX">
+    <net code="109" name="/MCU_H7/VLX">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="F1" pinfunction="VLXSMPS" pintype="power_out"/>
     </net>
-    <net code="109" name="/MCU_H7/~{H7_RST}">
+    <net code="110" name="/MCU_H7/~{H7_RST}">
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="U1" pin="L1" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="110" name="/PoE/POE_BR_N">
+    <net code="111" name="/PoE/POE_BR_N">
       <node ref="C87" pin="2" pintype="passive"/>
       <node ref="C88" pin="2" pintype="passive"/>
       <node ref="D10" pin="3" pinfunction="-" pintype="passive"/>
@@ -7237,7 +8110,7 @@
       <node ref="U11" pin="12" pinfunction="SIGDISA" pintype="bidirectional"/>
       <node ref="U11" pin="7" pinfunction="VPORTN" pintype="power_in"/>
     </net>
-    <net code="111" name="/PoE/POE_BR_P">
+    <net code="112" name="/PoE/POE_BR_P">
       <node ref="C87" pin="1" pintype="passive"/>
       <node ref="C88" pin="1" pintype="passive"/>
       <node ref="D10" pin="1" pinfunction="+" pintype="passive"/>
@@ -7245,53 +8118,53 @@
       <node ref="D9" pin="1" pinfunction="+" pintype="passive"/>
       <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="112" name="/PoE/POE_COMP">
+    <net code="113" name="/PoE/POE_COMP">
       <node ref="C94" pin="1" pintype="passive"/>
       <node ref="C97" pin="1" pintype="passive"/>
       <node ref="R83" pin="1" pintype="passive"/>
       <node ref="R84" pin="1" pintype="passive"/>
     </net>
-    <net code="113" name="/PoE/POE_EP_THPAD">
+    <net code="114" name="/PoE/POE_EP_THPAD">
       <node ref="HS1" pin="1" pintype="passive"/>
       <node ref="U11" pin="17" pinfunction="EP_FLOAT" pintype="passive"/>
     </net>
-    <net code="114" name="/PoE/POE_FB">
+    <net code="115" name="/PoE/POE_FB">
       <node ref="R85" pin="1" pintype="passive"/>
       <node ref="R86" pin="2" pintype="passive"/>
       <node ref="R87" pin="1" pintype="passive"/>
       <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="115" name="/PoE/POE_ISENSE">
+    <net code="116" name="/PoE/POE_ISENSE">
       <node ref="Q6" pin="4" pinfunction="S" pintype="passive"/>
       <node ref="R79" pin="1" pintype="passive"/>
       <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="14" pinfunction="SENSE" pintype="input"/>
     </net>
-    <net code="116" name="/PoE/POE_ITH">
+    <net code="117" name="/PoE/POE_ITH">
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="1" pinfunction="ITH/RUN" pintype="input"/>
     </net>
-    <net code="117" name="/PoE/POE_NGATE">
+    <net code="118" name="/PoE/POE_NGATE">
       <node ref="R78" pin="1" pintype="passive"/>
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="3" pinfunction="NGATE" pintype="output"/>
     </net>
-    <net code="118" name="/PoE/POE_OP_A">
+    <net code="119" name="/PoE/POE_OP_A">
       <node ref="C97" pin="2" pintype="passive"/>
       <node ref="R83" pin="2" pintype="passive"/>
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="1" pintype="passive"/>
     </net>
-    <net code="119" name="/PoE/POE_OP_K">
+    <net code="120" name="/PoE/POE_OP_K">
       <node ref="C99" pin="2" pintype="passive"/>
       <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U12" pin="2" pintype="passive"/>
       <node ref="U13" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="120" name="/PoE/POE_PVCC">
+    <net code="121" name="/PoE/POE_PVCC">
       <node ref="C90" pin="1" pintype="passive"/>
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
@@ -7301,7 +8174,7 @@
       <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="4" pinfunction="PVCC" pintype="power_out"/>
     </net>
-    <net code="121" name="/PoE/POE_TR_SW">
+    <net code="122" name="/PoE/POE_TR_SW">
       <node ref="Q6" pin="1" pinfunction="D" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="Q6" pin="5" pinfunction="D" pintype="passive"/>
@@ -7310,7 +8183,7 @@
       <node ref="T1" pin="3" pintype="passive"/>
       <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="122" name="/PoE/POE_VPORTP">
+    <net code="123" name="/PoE/POE_VPORTP">
       <node ref="C89" pin="1" pintype="passive"/>
       <node ref="C91" pin="1" pintype="passive"/>
       <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
@@ -7321,84 +8194,84 @@
       <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="13" pinfunction="VPORTP" pintype="power_in"/>
     </net>
-    <net code="123" name="/PoE/~{POE_PWRGD}">
+    <net code="124" name="/PoE/~{POE_PWRGD}">
       <node ref="R75" pin="1" pintype="passive"/>
       <node ref="R76" pin="1" pintype="passive"/>
       <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="11" pinfunction="~{PWRGD}" pintype="open_collector"/>
     </net>
-    <net code="124" name="/Power/3V3_FB">
+    <net code="125" name="/Power/3V3_FB">
       <node ref="C57" pin="2" pintype="passive"/>
       <node ref="R59" pin="1" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
       <node ref="U6" pin="1" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="125" name="/Power/3V3_PG">
+    <net code="126" name="/Power/3V3_PG">
       <node ref="R58" pin="1" pintype="passive"/>
       <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="PG" pintype="open_emitter"/>
     </net>
-    <net code="126" name="/Power/3V3_SW">
+    <net code="127" name="/Power/3V3_SW">
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U6" pin="4" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="127" name="/Power/AOZ_ENB">
+    <net code="128" name="/Power/AOZ_ENB">
       <node ref="R55" pin="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="ENB" pintype="input"/>
     </net>
-    <net code="128" name="/Power/AOZ_POVP">
+    <net code="129" name="/Power/AOZ_POVP">
       <node ref="R56" pin="1" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="POVP" pintype="input"/>
     </net>
-    <net code="129" name="/Power/AOZ_SS">
+    <net code="130" name="/Power/AOZ_SS">
       <node ref="C53" pin="1" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="SS" pintype="input"/>
     </net>
-    <net code="130" name="/Power/VUSB_FLTB">
+    <net code="131" name="/Power/VUSB_FLTB">
       <node ref="R57" pin="1" pintype="passive"/>
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="FLTB" pintype="open_collector"/>
     </net>
-    <net code="131" name="/USB/+1V8_ULPI">
+    <net code="132" name="/USB/+1V8_ULPI">
       <node ref="C42" pin="1" pintype="passive"/>
       <node ref="C50" pin="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U4" pin="21" pinfunction="VDD1.8" pintype="power_in"/>
     </net>
-    <net code="132" name="/USB/CC1">
+    <net code="133" name="/USB/CC1">
       <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R45" pin="1" pintype="passive"/>
     </net>
-    <net code="133" name="/USB/CC2">
+    <net code="134" name="/USB/CC2">
       <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R46" pin="1" pintype="passive"/>
     </net>
-    <net code="134" name="/USB/DM">
+    <net code="135" name="/USB/DM">
       <node ref="J5" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J5" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="DM" pintype="bidirectional"/>
     </net>
-    <net code="135" name="/USB/DP">
+    <net code="136" name="/USB/DP">
       <node ref="J5" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J5" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R49" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="DP" pintype="bidirectional"/>
     </net>
-    <net code="136" name="/USB/ULPI_RBIAS">
+    <net code="137" name="/USB/ULPI_RBIAS">
       <node ref="R52" pin="1" pintype="passive"/>
       <node ref="U4" pin="24" pinfunction="RBIAS" pintype="passive"/>
     </net>
-    <net code="137" name="/USB/ULPI_REGOUT_3V3">
+    <net code="138" name="/USB/ULPI_REGOUT_3V3">
       <node ref="C51" pin="1" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="VDD3.3" pintype="power_out"/>
     </net>
-    <net code="138" name="/USB/ULPI_VBUS">
+    <net code="139" name="/USB/ULPI_VBUS">
       <node ref="R51" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="VBUS" pintype="bidirectional"/>
     </net>
-    <net code="139" name="CHASSIS">
+    <net code="140" name="CHASSIS">
       <node ref="D17" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="D5" pin="3" pinfunction="common" pintype="input"/>
       <node ref="D8" pin="3" pinfunction="common" pintype="input"/>
@@ -7411,44 +8284,44 @@
       <node ref="J6" pin="0" pinfunction="PAD" pintype="passive"/>
       <node ref="J7" pin="0" pinfunction="PAD" pintype="passive"/>
     </net>
-    <net code="140" name="ETH_CRS_DV">
+    <net code="141" name="ETH_CRS_DV">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U1" pin="N6" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="141" name="ETH_MDC">
+    <net code="142" name="ETH_MDC">
       <node ref="U1" pin="L3" pinfunction="PC1" pintype="bidirectional"/>
       <node ref="U2" pin="17" pinfunction="MDC" pintype="input"/>
     </net>
-    <net code="142" name="ETH_MDIO">
+    <net code="143" name="ETH_MDIO">
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U1" pin="R2" pinfunction="PA2" pintype="bidirectional"/>
       <node ref="U2" pin="16" pinfunction="MDIO" pintype="bidirectional"/>
     </net>
-    <net code="143" name="ETH_REFCLK">
+    <net code="144" name="ETH_REFCLK">
       <node ref="R42" pin="2" pintype="passive"/>
       <node ref="U1" pin="P2" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="144" name="ETH_RXD0">
+    <net code="145" name="ETH_RXD0">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="U1" pin="R6" pinfunction="PC4" pintype="bidirectional"/>
     </net>
-    <net code="145" name="ETH_RXD1">
+    <net code="146" name="ETH_RXD1">
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U1" pin="M7" pinfunction="PC5" pintype="bidirectional"/>
     </net>
-    <net code="146" name="ETH_TXD0">
+    <net code="147" name="ETH_TXD0">
       <node ref="U1" pin="B7" pinfunction="PG13" pintype="bidirectional"/>
       <node ref="U2" pin="22" pinfunction="TXD0" pintype="input"/>
     </net>
-    <net code="147" name="ETH_TXD1">
+    <net code="148" name="ETH_TXD1">
       <node ref="U1" pin="C7" pinfunction="PG14" pintype="bidirectional"/>
       <node ref="U2" pin="23" pinfunction="TXD1" pintype="input"/>
     </net>
-    <net code="148" name="ETH_TXEN">
+    <net code="149" name="ETH_TXEN">
       <node ref="U1" pin="A7" pinfunction="PG11" pintype="bidirectional"/>
       <node ref="U2" pin="21" pinfunction="TXEN" pintype="input"/>
     </net>
-    <net code="149" name="GND">
+    <net code="150" name="GND">
       <node ref="B1" pin="M" pinfunction="M" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
@@ -7639,11 +8512,11 @@
       <node ref="X2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="X3" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="150" name="H7_CLK">
+    <net code="151" name="H7_CLK">
       <node ref="R54" pin="2" pintype="passive"/>
       <node ref="U1" pin="J1" pinfunction="PH0-OSC_IN" pintype="bidirectional"/>
     </net>
-    <net code="151" name="ISO_1">
+    <net code="152" name="ISO_1">
       <node ref="C101" pin="2" pintype="passive"/>
       <node ref="C102" pin="2" pintype="passive"/>
       <node ref="C103" pin="2" pintype="passive"/>
@@ -7681,7 +8554,7 @@
       <node ref="U7" pin="5" pinfunction="GND2" pintype="power_in"/>
       <node ref="U8" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="152" name="ISO_POE">
+    <net code="153" name="ISO_POE">
       <node ref="C89" pin="2" pintype="passive"/>
       <node ref="C90" pin="2" pintype="passive"/>
       <node ref="C92" pin="1" pintype="passive"/>
@@ -7701,396 +8574,393 @@
       <node ref="U11" pin="2" pinfunction="PGND" pintype="power_out"/>
       <node ref="U12" pin="3" pintype="passive"/>
     </net>
-    <net code="153" name="Net-(C64-Pad1)">
+    <net code="154" name="Net-(C64-Pad1)">
       <node ref="C64" pin="1" pintype="passive"/>
       <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="M2" pin="13" pinfunction="VIN" pintype="power_in"/>
       <node ref="M2" pin="14" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="154" name="Net-(C72-Pad1)">
+    <net code="155" name="Net-(C72-Pad1)">
       <node ref="C72" pin="1" pintype="passive"/>
       <node ref="K1" pin="4" pintype="passive"/>
       <node ref="K1" pin="9" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(C78-Pad1)">
+    <net code="156" name="Net-(C78-Pad1)">
       <node ref="C78" pin="1" pintype="passive"/>
       <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="M3" pin="13" pinfunction="VIN" pintype="power_in"/>
       <node ref="M3" pin="14" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="156" name="Net-(C86-Pad1)">
+    <net code="157" name="Net-(C86-Pad1)">
       <node ref="C86" pin="1" pintype="passive"/>
       <node ref="K2" pin="4" pintype="passive"/>
       <node ref="K2" pin="9" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(C91-Pad2)">
+    <net code="158" name="Net-(C91-Pad2)">
       <node ref="C91" pin="2" pintype="passive"/>
       <node ref="R77" pin="1" pintype="passive"/>
     </net>
-    <net code="158" name="Net-(C96-Pad1)">
+    <net code="159" name="Net-(C96-Pad1)">
       <node ref="C96" pin="1" pintype="passive"/>
       <node ref="R82" pin="2" pintype="passive"/>
     </net>
-    <net code="159" name="Net-(C99-Pad1)">
+    <net code="160" name="Net-(C99-Pad1)">
       <node ref="C99" pin="1" pintype="passive"/>
       <node ref="R85" pin="2" pintype="passive"/>
     </net>
-    <net code="160" name="Net-(C110-Pad2)">
+    <net code="161" name="Net-(C110-Pad2)">
       <node ref="C110" pin="2" pintype="passive"/>
       <node ref="R94" pin="1" pintype="passive"/>
     </net>
-    <net code="161" name="Net-(D1-I{slash}O_1)">
+    <net code="162" name="Net-(D1-I{slash}O_1)">
       <node ref="D1" pin="1" pinfunction="I/O_1" pintype="passive"/>
       <node ref="J4" pin="3" pinfunction="RD-" pintype="passive"/>
       <node ref="R35" pin="2" pintype="passive"/>
       <node ref="U2" pin="30" pinfunction="RXN" pintype="bidirectional"/>
     </net>
-    <net code="162" name="Net-(D1-I{slash}O_2)">
+    <net code="163" name="Net-(D1-I{slash}O_2)">
       <node ref="D1" pin="3" pinfunction="I/O_2" pintype="passive"/>
       <node ref="J4" pin="8" pinfunction="TD-" pintype="passive"/>
       <node ref="R38" pin="2" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="TXN" pintype="bidirectional"/>
     </net>
-    <net code="163" name="Net-(D1-I{slash}O_3)">
+    <net code="164" name="Net-(D1-I{slash}O_3)">
       <node ref="D1" pin="4" pinfunction="I/O_3" pintype="passive"/>
       <node ref="J4" pin="10" pinfunction="TD+" pintype="passive"/>
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="U2" pin="29" pinfunction="TXP" pintype="bidirectional"/>
     </net>
-    <net code="164" name="Net-(D1-I{slash}O_4)">
+    <net code="165" name="Net-(D1-I{slash}O_4)">
       <node ref="D1" pin="6" pinfunction="I/O_4" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="RD+" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="U2" pin="31" pinfunction="RXP" pintype="bidirectional"/>
     </net>
-    <net code="165" name="Net-(D3-A)">
+    <net code="166" name="Net-(D3-A)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K1" pin="12" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(D4-A)">
+    <net code="167" name="Net-(D4-A)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K1" pin="7" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="167" name="Net-(D6-A)">
+    <net code="168" name="Net-(D6-A)">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K2" pin="12" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(D7-A)">
+    <net code="169" name="Net-(D7-A)">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K2" pin="7" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="169" name="Net-(D12-K)">
+    <net code="170" name="Net-(D12-K)">
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R73" pin="2" pintype="passive"/>
     </net>
-    <net code="170" name="Net-(D13-A)">
+    <net code="171" name="Net-(D13-A)">
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R81" pin="1" pintype="passive"/>
     </net>
-    <net code="171" name="Net-(D14-K)">
+    <net code="172" name="Net-(D14-K)">
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R75" pin="2" pintype="passive"/>
     </net>
-    <net code="172" name="Net-(D15-K)">
+    <net code="173" name="Net-(D15-K)">
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R80" pin="2" pintype="passive"/>
       <node ref="U12" pin="4" pintype="passive"/>
     </net>
-    <net code="173" name="Net-(D16-A)">
+    <net code="174" name="Net-(D16-A)">
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R82" pin="1" pintype="passive"/>
       <node ref="T1" pin="5" pintype="passive"/>
       <node ref="T1" pin="6" pintype="passive"/>
     </net>
-    <net code="174" name="Net-(D19-K)">
+    <net code="175" name="Net-(D19-K)">
       <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="175" name="Net-(D22-A)">
+    <net code="176" name="Net-(D22-A)">
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="T2" pin="6" pintype="passive"/>
       <node ref="T2" pin="7" pintype="passive"/>
     </net>
-    <net code="176" name="Net-(J2-Pad1)">
+    <net code="177" name="Net-(J2-Pad1)">
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="177" name="Net-(J4-GA)">
+    <net code="178" name="Net-(J4-GA)">
       <node ref="J4" pin="11" pinfunction="GA" pintype="passive"/>
       <node ref="R44" pin="1" pintype="passive"/>
     </net>
-    <net code="178" name="Net-(J4-YA)">
+    <net code="179" name="Net-(J4-YA)">
       <node ref="J4" pin="13" pinfunction="YA" pintype="passive"/>
       <node ref="R43" pin="1" pintype="passive"/>
     </net>
-    <net code="179" name="Net-(K1-Pad5)">
+    <net code="180" name="Net-(K1-Pad5)">
       <node ref="K1" pin="5" pintype="passive"/>
       <node ref="R63" pin="2" pintype="passive"/>
     </net>
-    <net code="180" name="Net-(K1-Pad8)">
+    <net code="181" name="Net-(K1-Pad8)">
       <node ref="K1" pin="8" pintype="passive"/>
       <node ref="R64" pin="2" pintype="passive"/>
     </net>
-    <net code="181" name="Net-(K2-Pad5)">
+    <net code="182" name="Net-(K2-Pad5)">
       <node ref="K2" pin="5" pintype="passive"/>
       <node ref="R67" pin="2" pintype="passive"/>
     </net>
-    <net code="182" name="Net-(K2-Pad8)">
+    <net code="183" name="Net-(K2-Pad8)">
       <node ref="K2" pin="8" pintype="passive"/>
       <node ref="R68" pin="2" pintype="passive"/>
     </net>
-    <net code="183" name="Net-(M1-BS1)">
+    <net code="184" name="Net-(M1-BS1)">
       <node ref="M1" pin="8" pinfunction="BS1" pintype="input"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="184" name="Net-(M1-C1N)">
+    <net code="185" name="Net-(M1-C1N)">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="M1" pin="4" pinfunction="C1N" pintype="power_in"/>
     </net>
-    <net code="185" name="Net-(M1-C1P)">
+    <net code="186" name="Net-(M1-C1P)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="M1" pin="3" pinfunction="C1P" pintype="power_in"/>
     </net>
-    <net code="186" name="Net-(M1-C2N)">
+    <net code="187" name="Net-(M1-C2N)">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="M1" pin="2" pinfunction="C2N" pintype="power_in"/>
     </net>
-    <net code="187" name="Net-(M1-C2P)">
+    <net code="188" name="Net-(M1-C2P)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="M1" pin="1" pinfunction="C2P" pintype="power_in"/>
     </net>
-    <net code="188" name="Net-(Q6-G)">
+    <net code="189" name="Net-(Q6-G)">
       <node ref="Q6" pin="3" pinfunction="G" pintype="input"/>
       <node ref="R78" pin="2" pintype="passive"/>
     </net>
-    <net code="189" name="Net-(R40-Pad2)">
+    <net code="190" name="Net-(R40-Pad2)">
       <node ref="R40" pin="2" pintype="passive"/>
       <node ref="R41" pin="1" pintype="passive"/>
       <node ref="R42" pin="1" pintype="passive"/>
     </net>
-    <net code="190" name="Net-(R50-Pad2)">
+    <net code="191" name="Net-(R50-Pad2)">
       <node ref="R50" pin="2" pintype="passive"/>
       <node ref="R53" pin="1" pintype="passive"/>
       <node ref="R54" pin="1" pintype="passive"/>
     </net>
-    <net code="191" name="Net-(R69-Pad2)">
+    <net code="192" name="Net-(R69-Pad2)">
       <node ref="R69" pin="2" pintype="passive"/>
       <node ref="U11" pin="6" pinfunction="NC" pintype="passive"/>
     </net>
-    <net code="192" name="Net-(R70-Pad2)">
+    <net code="193" name="Net-(R70-Pad2)">
       <node ref="R70" pin="2" pintype="passive"/>
       <node ref="U11" pin="8" pinfunction="NC" pintype="passive"/>
     </net>
-    <net code="193" name="Net-(R71-Pad2)">
+    <net code="194" name="Net-(R71-Pad2)">
       <node ref="R71" pin="2" pintype="passive"/>
       <node ref="U11" pin="9" pinfunction="NC" pintype="passive"/>
     </net>
-    <net code="194" name="Net-(R81-Pad2)">
+    <net code="195" name="Net-(R81-Pad2)">
       <node ref="R81" pin="2" pintype="passive"/>
       <node ref="T1" pin="2" pintype="passive"/>
     </net>
-    <net code="195" name="Net-(U1I-PDR_ON)">
+    <net code="196" name="Net-(U1I-PDR_ON)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U1" pin="D4" pinfunction="PDR_ON" pintype="input"/>
     </net>
-    <net code="196" name="Net-(U2A-COL{slash}CRS_DV{slash}MODE2)">
+    <net code="197" name="Net-(U2A-COL{slash}CRS_DV{slash}MODE2)">
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="COL/CRS_DV/MODE2" pintype="bidirectional"/>
     </net>
-    <net code="197" name="Net-(U2A-XTAL1{slash}CLKIN)">
+    <net code="198" name="Net-(U2A-XTAL1{slash}CLKIN)">
       <node ref="R41" pin="2" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="XTAL1/CLKIN" pintype="input"/>
     </net>
-    <net code="198" name="Net-(U2A-~{INT}{slash}TXER{slash}TXD4)">
+    <net code="199" name="Net-(U2A-~{INT}{slash}TXER{slash}TXD4)">
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="~{INT}/TXER/TXD4" pintype="bidirectional"/>
     </net>
-    <net code="199" name="Net-(U4-REFCLK)">
+    <net code="200" name="Net-(U4-REFCLK)">
       <node ref="R53" pin="2" pintype="passive"/>
       <node ref="U4" pin="23" pinfunction="REFCLK" pintype="input"/>
     </net>
-    <net code="200" name="Net-(U7-VDD1)">
+    <net code="201" name="Net-(U7-VDD1)">
       <node ref="C60" pin="1" pintype="passive"/>
       <node ref="C61" pin="1" pintype="passive"/>
       <node ref="C63" pin="1" pintype="passive"/>
       <node ref="FB3" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="VDD1" pintype="power_in"/>
     </net>
-    <net code="201" name="Net-(U9-VDD1)">
+    <net code="202" name="Net-(U9-VDD1)">
       <node ref="C74" pin="1" pintype="passive"/>
       <node ref="C75" pin="1" pintype="passive"/>
       <node ref="C77" pin="1" pintype="passive"/>
       <node ref="FB5" pin="2" pintype="passive"/>
       <node ref="U9" pin="1" pinfunction="VDD1" pintype="power_in"/>
     </net>
-    <net code="202" name="Net-(U11-RCLASS)">
+    <net code="203" name="Net-(U11-RCLASS)">
       <node ref="R72" pin="2" pintype="passive"/>
       <node ref="U11" pin="5" pinfunction="RCLASS" pintype="input"/>
     </net>
-    <net code="203" name="Net-(X2-EN)">
+    <net code="204" name="Net-(X2-EN)">
       <node ref="R37" pin="1" pintype="passive"/>
       <node ref="X2" pin="1" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="204" name="Net-(X2-OUT)">
+    <net code="205" name="Net-(X2-OUT)">
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X2" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="205" name="Net-(X3-EN)">
+    <net code="206" name="Net-(X3-EN)">
       <node ref="R47" pin="1" pintype="passive"/>
       <node ref="X3" pin="1" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="206" name="Net-(X3-OUT)">
+    <net code="207" name="Net-(X3-OUT)">
       <node ref="R50" pin="1" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X3" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="207" name="POE_AC1">
+    <net code="208" name="POE_AC1">
       <node ref="D9" pin="4" pintype="passive"/>
       <node ref="J4" pin="7" pinfunction="VC1+" pintype="power_out"/>
     </net>
-    <net code="208" name="POE_AC2">
+    <net code="209" name="POE_AC2">
       <node ref="D9" pin="2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="VC1-" pintype="power_out"/>
     </net>
-    <net code="209" name="POE_AC3">
+    <net code="210" name="POE_AC3">
       <node ref="D10" pin="4" pintype="passive"/>
       <node ref="J4" pin="6" pinfunction="VC2+" pintype="power_out"/>
     </net>
-    <net code="210" name="POE_AC4">
+    <net code="211" name="POE_AC4">
       <node ref="D10" pin="2" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="VC2-" pintype="power_out"/>
     </net>
-    <net code="211" name="RJ45_LEDG">
+    <net code="212" name="RJ45_LEDG">
       <node ref="R44" pin="2" pintype="passive"/>
       <node ref="U1" pin="G15" pinfunction="PG2" pintype="bidirectional"/>
     </net>
-    <net code="212" name="RJ45_LEDY">
+    <net code="213" name="RJ45_LEDY">
       <node ref="R43" pin="2" pintype="passive"/>
       <node ref="U1" pin="H13" pinfunction="PG3" pintype="bidirectional"/>
     </net>
-    <net code="213" name="ULPI_CK">
+    <net code="214" name="ULPI_CK">
       <node ref="U1" pin="P6" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="U4" pin="12" pinfunction="CLKOUT" pintype="output"/>
     </net>
-    <net code="214" name="ULPI_D0">
+    <net code="215" name="ULPI_D0">
       <node ref="U1" pin="N5" pinfunction="PA3" pintype="bidirectional"/>
       <node ref="U4" pin="16" pinfunction="DATA0" pintype="bidirectional"/>
     </net>
-    <net code="215" name="ULPI_D1">
+    <net code="216" name="ULPI_D1">
       <node ref="U1" pin="R8" pinfunction="PB0" pintype="bidirectional"/>
       <node ref="U4" pin="15" pinfunction="DATA1" pintype="bidirectional"/>
     </net>
-    <net code="216" name="ULPI_D2">
+    <net code="217" name="ULPI_D2">
       <node ref="U1" pin="M8" pinfunction="PB1" pintype="bidirectional"/>
       <node ref="U4" pin="14" pinfunction="DATA2" pintype="bidirectional"/>
     </net>
-    <net code="217" name="ULPI_D3">
+    <net code="218" name="ULPI_D3">
       <node ref="U1" pin="N12" pinfunction="PB10" pintype="bidirectional"/>
       <node ref="U4" pin="13" pinfunction="DATA3" pintype="bidirectional"/>
     </net>
-    <net code="218" name="ULPI_D4">
+    <net code="219" name="ULPI_D4">
       <node ref="U1" pin="P10" pinfunction="PB11" pintype="bidirectional"/>
       <node ref="U4" pin="11" pinfunction="DATA4" pintype="bidirectional"/>
     </net>
-    <net code="219" name="ULPI_D5">
+    <net code="220" name="ULPI_D5">
       <node ref="U1" pin="M15" pinfunction="PB12" pintype="bidirectional"/>
       <node ref="U4" pin="10" pinfunction="DATA5" pintype="bidirectional"/>
     </net>
-    <net code="220" name="ULPI_D6">
+    <net code="221" name="ULPI_D6">
       <node ref="U1" pin="L15" pinfunction="PB13" pintype="bidirectional"/>
       <node ref="U4" pin="9" pinfunction="DATA6" pintype="bidirectional"/>
     </net>
-    <net code="221" name="ULPI_D7">
+    <net code="222" name="ULPI_D7">
       <node ref="U1" pin="C6" pinfunction="PB5" pintype="bidirectional"/>
       <node ref="U4" pin="8" pinfunction="DATA7" pintype="bidirectional"/>
     </net>
-    <net code="222" name="ULPI_DIR">
+    <net code="223" name="ULPI_DIR">
       <node ref="U1" pin="M1" pinfunction="PC2" pintype="bidirectional"/>
       <node ref="U4" pin="19" pinfunction="DIR" pintype="output"/>
     </net>
-    <net code="223" name="ULPI_NXT">
+    <net code="224" name="ULPI_NXT">
       <node ref="U1" pin="M2" pinfunction="PC3" pintype="bidirectional"/>
       <node ref="U4" pin="18" pinfunction="NXT" pintype="output"/>
     </net>
-    <net code="224" name="ULPI_RST">
+    <net code="225" name="ULPI_RST">
       <node ref="U1" pin="D8" pinfunction="PG12" pintype="bidirectional"/>
       <node ref="U4" pin="22" pinfunction="RESETB" pintype="input"/>
     </net>
-    <net code="225" name="ULPI_STP">
+    <net code="226" name="ULPI_STP">
       <node ref="U1" pin="L2" pinfunction="PC0" pintype="bidirectional"/>
       <node ref="U4" pin="20" pinfunction="STP" pintype="input"/>
     </net>
-    <net code="226" name="USBFS_DM">
+    <net code="227" name="USBFS_DM">
       <node ref="R48" pin="2" pintype="passive"/>
       <node ref="U1" pin="C15" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="227" name="USBFS_DP">
+    <net code="228" name="USBFS_DP">
       <node ref="R49" pin="1" pintype="passive"/>
       <node ref="U1" pin="B15" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="230" name="unconnected-(J3-Pin_37-Pad37)">
+    <net code="231" name="unconnected-(J3-Pin_37-Pad37)">
       <node ref="J3" pin="37" pinfunction="Pin_37" pintype="passive+no_connect"/>
     </net>
-    <net code="231" name="unconnected-(J3-Pin_38-Pad38)">
+    <net code="232" name="unconnected-(J3-Pin_38-Pad38)">
       <node ref="J3" pin="38" pinfunction="Pin_38" pintype="passive+no_connect"/>
     </net>
-    <net code="232" name="unconnected-(J3-Pin_39-Pad39)">
+    <net code="233" name="unconnected-(J3-Pin_39-Pad39)">
       <node ref="J3" pin="39" pinfunction="Pin_39" pintype="passive+no_connect"/>
     </net>
-    <net code="233" name="unconnected-(J3-Pin_40-Pad40)">
+    <net code="234" name="unconnected-(J3-Pin_40-Pad40)">
       <node ref="J3" pin="40" pinfunction="Pin_40" pintype="passive+no_connect"/>
     </net>
-    <net code="234" name="unconnected-(J5-SBU1-PadA8)">
+    <net code="235" name="unconnected-(J5-SBU1-PadA8)">
       <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="235" name="unconnected-(J5-SBU2-PadB8)">
+    <net code="236" name="unconnected-(J5-SBU2-PadB8)">
       <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="236" name="unconnected-(J6-Pad4)">
+    <net code="237" name="unconnected-(J6-Pad4)">
       <node ref="J6" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="237" name="unconnected-(J6-Pad5)">
+    <net code="238" name="unconnected-(J6-Pad5)">
       <node ref="J6" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="238" name="unconnected-(J6-Pad8)">
+    <net code="239" name="unconnected-(J6-Pad8)">
       <node ref="J6" pin="8" pinfunction="8" pintype="passive+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(J7-Pad4)">
+    <net code="240" name="unconnected-(J7-Pad4)">
       <node ref="J7" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(J7-Pad5)">
+    <net code="241" name="unconnected-(J7-Pad5)">
       <node ref="J7" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="241" name="unconnected-(J7-Pad8)">
+    <net code="242" name="unconnected-(J7-Pad8)">
       <node ref="J7" pin="8" pinfunction="8" pintype="passive+no_connect"/>
     </net>
-    <net code="242" name="unconnected-(K1-Pad3)">
+    <net code="243" name="unconnected-(K1-Pad3)">
       <node ref="K1" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="243" name="unconnected-(K1-Pad10)">
+    <net code="244" name="unconnected-(K1-Pad10)">
       <node ref="K1" pin="10" pintype="passive+no_connect"/>
     </net>
-    <net code="244" name="unconnected-(K2-Pad3)">
+    <net code="245" name="unconnected-(K2-Pad3)">
       <node ref="K2" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="245" name="unconnected-(K2-Pad10)">
+    <net code="246" name="unconnected-(K2-Pad10)">
       <node ref="K2" pin="10" pintype="passive+no_connect"/>
     </net>
-    <net code="246" name="unconnected-(U1A-PA0-PadP1)">
+    <net code="247" name="unconnected-(U1A-PA0-PadP1)">
       <node ref="U1" pin="P1" pinfunction="PA0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="247" name="unconnected-(U1A-PA0_C-PadR3)">
+    <net code="248" name="unconnected-(U1A-PA0_C-PadR3)">
       <node ref="U1" pin="R3" pinfunction="PA0_C" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="248" name="unconnected-(U1A-PA4-PadP5)">
-      <node ref="U1" pin="P5" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
     <net code="249" name="unconnected-(U1A-PA8-PadB14)">
       <node ref="U1" pin="B14" pinfunction="PA8" pintype="bidirectional+no_connect"/>

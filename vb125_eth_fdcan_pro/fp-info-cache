@@ -1,4 +1,4 @@
-21628267436549545
+21631655232421207
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90167,6 +90167,13 @@ capacitor
 2
 2
 vhrd_generic
+C_Disc_D7.0mm_W2.5mm_P6.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
+0
+2
+2
+vhrd_generic
 DFN-12-AOZ
 DFN12, 4x4, 0.65P; CASE 506CE (see ON Semiconductor 506CE.PDF)
 DFN 0.65
@@ -90201,6 +90208,13 @@ SOIC SO
 0
 20
 9
+vhrd_generic
+SPARK_GAP_011
+
+
+0
+4
+2
 vhrd_inductor
 LMLP07A7
 

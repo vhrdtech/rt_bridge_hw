@@ -10,3 +10,6 @@ vb125_eth_fdcan_pro/fp-info-cache
 vb125_eth_fdcan_pro/fp-info-cache
 vb125_eth_fdcan_pro/fp-info-cache
 vb125_eth_fdcan_pro/fp-info-cache
+*.zip
+*.xml
+*.kicad_prl
