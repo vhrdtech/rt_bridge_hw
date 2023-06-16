@@ -1,4 +1,4 @@
-21631655232421207
+21645187546098942
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90139,6 +90139,13 @@ vhrd_connectors_molex
 13
 13
 vhrd_connectors_molex
+5050661422
+
+
+0
+18
+16
+vhrd_connectors_molex
 Molex_Pico-Lock_504050-0491_1x04-1MP_P1.50mm_Horizontal
 Molex Pico-Lock series connector, 504050-0491 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator
 connector Molex Pico-Lock horizontal
@@ -90149,6 +90156,48 @@ vhrd_crystal
 ECX-.327-CDX-1293
 
 
+0
+2
+2
+vhrd_crystal
+Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm
+Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Oscillators/ASEseries.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal oscillator
+0
+4
+4
+vhrd_diode
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+vhrd_diode
+D_SMF
+Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf
+Diode SMF (DO-214AB)
+0
+2
+2
+vhrd_diode
+D_SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+vhrd_diode
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+vhrd_diode
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
 0
 2
 2
@@ -90208,6 +90257,13 @@ SOIC SO
 0
 20
 9
+vhrd_generic
+SOT-23-6_TI
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6 Hand-soldering
+0
+6
+6
 vhrd_generic
 SPARK_GAP_011
 

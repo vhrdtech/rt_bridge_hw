@@ -4287,7 +4287,7 @@
     (property "Value" "50MHz" (at 266.7 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" (at 278.13 181.61 0)
+    (property "Footprint" "vhrd_crystal:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" (at 278.13 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf" (at 257.81 172.72 0)
