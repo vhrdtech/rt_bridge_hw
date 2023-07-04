@@ -4606,7 +4606,7 @@
     (property "Footprint" "vhrd_connector_amphenol:D09P33E4GL00LF" (at 350.52 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (at 350.52 121.92 0)
+    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c01-8646-0590.pdf" (at 350.52 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Variant" "can_ch2" (at 350.52 121.92 0)
